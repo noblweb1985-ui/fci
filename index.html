@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Security, Technology &amp; Telecom in Ottawa | FCi — One Company, One Call, One Team</title>
-<meta name="description" content="FCi (Fleming Communications Inc.) delivers integrated security, technology and telecom for Ottawa buildings — access control, video surveillance, 24/7 ULC alarm monitoring, Wi-Fi, cellular, audio video and structured cabling.">
+<title>FCi | Security, Technology &amp; Telecom in Ottawa</title>
+<meta name="description" content="Integrated security, technology and telecom for Ottawa buildings: access control, surveillance, 24/7 ULC alarm monitoring, Wi-Fi, cellular and cabling.">
 <link rel="canonical" href="https://www.fci.ca/">
 <meta name="theme-color" content="#0A0B0D">
 <meta name="robots" content="index, follow">
@@ -21,7 +21,11 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap">
+<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+<noscript><link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet"></noscript>
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
 
 <script type="application/ld+json">
 {
@@ -299,7 +303,7 @@ p{margin:0}
 .marquee{display:flex;width:max-content;animation:mq 34s linear infinite}
 .partners:hover .marquee{animation-play-state:paused}
 .marquee ul{display:flex;list-style:none;margin:0;padding:0}
-.marquee li{padding:0 clamp(28px,4vw,64px);font:700 clamp(1.6rem,2.6vw,2.4rem)/1 var(--f-display);text-transform:uppercase;color:#5d5a55;letter-spacing:.04em;transition:color .3s;display:flex;align-items:center;gap:clamp(28px,4vw,64px)}
+.marquee li{padding:0 clamp(28px,4vw,64px);font:700 clamp(1.6rem,2.6vw,2.4rem)/1 var(--f-display);text-transform:uppercase;color:#6b6862;letter-spacing:.04em;transition:color .3s;display:flex;align-items:center;gap:clamp(28px,4vw,64px)}
 .marquee li::after{content:"";width:6px;height:6px;background:var(--y);transform:rotate(45deg);opacity:.6}
 .marquee li:hover{color:var(--text)}
 @keyframes mq{to{transform:translateX(-50%)}}
@@ -319,21 +323,21 @@ p{margin:0}
 /* ---------- footer ---------- */
 .foot{background:#060708;border-top:1px solid var(--line);padding:80px 0 30px;font-size:.92rem}
 .foot-grid{display:grid;grid-template-columns:1.4fr repeat(4,1fr);gap:40px}
-.foot h4{font-size:1rem;text-transform:uppercase;letter-spacing:.1em;margin-bottom:18px;color:var(--text)}
+.foot h3{font-size:1rem;text-transform:uppercase;letter-spacing:.1em;margin-bottom:18px;color:var(--text)}
 .foot ul{list-style:none;padding:0;margin:0;display:grid;gap:10px}
 .foot ul a{color:var(--mute);transition:color .2s}
 .foot ul a:hover{color:var(--y)}
 .foot .brand p{color:var(--mute);margin:18px 0 24px;max-width:32ch}
 .news{display:flex;border:1px solid var(--line-2);max-width:360px}
 .news input{flex:1;min-width:0;background:none;border:0;color:var(--text);padding:0 14px;height:48px;font:inherit}
-.news input::placeholder{color:#6d6a64}
+.news input::placeholder{color:#8a867f}
 .news button{width:52px;background:var(--y);color:var(--ink);display:grid;place-items:center}
 .news button svg{width:18px}
 .social{display:flex;gap:10px;margin-top:22px}
 .social a{width:40px;height:40px;border:1px solid var(--line-2);display:grid;place-items:center;color:var(--mute);transition:.2s}
 .social a:hover{border-color:var(--y);color:var(--y)}
 .social svg{width:16px;height:16px}
-.foot-bottom{margin-top:64px;padding-top:24px;border-top:1px solid var(--line);display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;color:#6d6a64;font-size:.82rem}
+.foot-bottom{margin-top:64px;padding-top:24px;border-top:1px solid var(--line);display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;color:#8a867f;font-size:.82rem}
 .foot-bottom nav{display:flex;gap:20px}
 .foot-bottom a:hover{color:var(--y)}
 
@@ -501,11 +505,11 @@ p{margin:0}
       <a class="btn btn--ghost" href="#building">Explore the building</a>
     </div>
   </div>
-  <div class="hero-meta" aria-hidden="true">
+  <nav class="hero-meta" aria-label="Our three pillars">
     <a href="#pillar-security"><span class="mono">01</span><b>Security</b></a>
     <a href="#pillar-technology"><span class="mono">02</span><b>Technology</b></a>
     <a href="#pillar-telecom"><span class="mono">03</span><b>Telecom</b></a>
-  </div>
+  </nav>
   <div class="scroll-cue mono" aria-hidden="true"><i></i></div>
 </section>
 
@@ -620,10 +624,10 @@ p{margin:0}
           <a href="https://twitter.com/fci_ottawa" aria-label="X (Twitter)" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.2 2H21l-6.5 7.4L22 22h-6l-4.7-6.2L5.9 22H3l7-8L2 2h6.1l4.3 5.7zm-1 18h1.6L7 4H5.3z"/></svg></a>
         </div>
       </div>
-      <div><h4>Security</h4><ul><li><a href="https://www.fci.ca/commercial-security-ottawa/">Access Control</a></li><li><a href="https://www.fci.ca/commercial-security-ottawa/">Video Surveillance</a></li><li><a href="https://www.fci.ca/commercial-security-ottawa/">Alarm Monitoring</a></li><li><a href="https://www.fci.ca/commercial-security-ottawa/">Intrusion Detection</a></li></ul></div>
-      <div><h4>Technology</h4><ul><li><a href="https://www.fci.ca/technology/">Audio Video</a></li><li><a href="https://www.fci.ca/technology/">Wireless LAN</a></li><li><a href="https://www.fci.ca/technology/">Cellular Enhancement</a></li><li><a href="https://www.fci.ca/technology/">Sound Masking</a></li><li><a href="https://www.fci.ca/technology/">PoE Lighting</a></li><li><a href="https://www.fci.ca/technology/">Audit Services</a></li></ul></div>
-      <div><h4>Telecom</h4><ul><li><a href="https://www.fci.ca/telecom-ottawa/">Structured Cabling</a></li><li><a href="https://www.fci.ca/telecom-ottawa/">Technical Staffing</a></li></ul></div>
-      <div><h4>Company</h4><ul><li><a href="https://www.fci.ca/ottawa-security-telecom-technology/">About</a></li><li><a href="https://www.fci.ca/ottawa-security-telecom-technology/">Careers</a></li><li><a href="https://www.fci.ca/partnerships/">Partnerships</a></li><li><a href="https://www.fci.ca/blog/">Blog</a></li><li><a href="https://www.fci.ca/contact/">Contact</a></li><li><a href="https://tools.fci.on.ca/jobbuilder/Logon.aspx" rel="noopener">Client Login</a></li></ul></div>
+      <div><h3>Security</h3><ul><li><a href="https://www.fci.ca/commercial-security-ottawa/">Access Control</a></li><li><a href="https://www.fci.ca/commercial-security-ottawa/">Video Surveillance</a></li><li><a href="https://www.fci.ca/commercial-security-ottawa/">Alarm Monitoring</a></li><li><a href="https://www.fci.ca/commercial-security-ottawa/">Intrusion Detection</a></li></ul></div>
+      <div><h3>Technology</h3><ul><li><a href="https://www.fci.ca/technology/">Audio Video</a></li><li><a href="https://www.fci.ca/technology/">Wireless LAN</a></li><li><a href="https://www.fci.ca/technology/">Cellular Enhancement</a></li><li><a href="https://www.fci.ca/technology/">Sound Masking</a></li><li><a href="https://www.fci.ca/technology/">PoE Lighting</a></li><li><a href="https://www.fci.ca/technology/">Audit Services</a></li></ul></div>
+      <div><h3>Telecom</h3><ul><li><a href="https://www.fci.ca/telecom-ottawa/">Structured Cabling</a></li><li><a href="https://www.fci.ca/telecom-ottawa/">Technical Staffing</a></li></ul></div>
+      <div><h3>Company</h3><ul><li><a href="https://www.fci.ca/ottawa-security-telecom-technology/">About</a></li><li><a href="https://www.fci.ca/ottawa-security-telecom-technology/">Careers</a></li><li><a href="https://www.fci.ca/partnerships/">Partnerships</a></li><li><a href="https://www.fci.ca/blog/">Blog</a></li><li><a href="https://www.fci.ca/contact/">Contact</a></li><li><a href="https://tools.fci.on.ca/jobbuilder/Logon.aspx" rel="noopener">Client Login</a></li></ul></div>
     </div>
     <div class="foot-bottom">
       <span>© 2026 Fleming Communications Inc. All rights reserved.</span>
