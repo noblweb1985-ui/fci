@@ -173,7 +173,7 @@ p{margin:0}
 
 /* ---------- hero ---------- */
 .hero{position:relative;min-height:100svh;display:flex;align-items:flex-end;overflow:hidden;isolation:isolate}
-.hero video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-3;filter:saturate(.75) contrast(1.05)}
+.hero video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-3;background:#0A0B0D;will-change:transform}
 .hero::before{content:"";position:absolute;inset:0;z-index:-2;background:
   linear-gradient(180deg,rgba(10,11,13,.75) 0%,rgba(10,11,13,.25) 35%,rgba(10,11,13,.65) 70%,var(--ink) 100%),
   linear-gradient(90deg,rgba(10,11,13,.85) 0%,rgba(10,11,13,0) 65%)}
@@ -477,9 +477,19 @@ p{margin:0}
 
 <!-- ======================= HERO ======================= -->
 <section class="hero" aria-labelledby="hero-h">
-  <video autoplay muted loop playsinline preload="metadata" aria-hidden="true">
-    <source src="https://www.fci.ca/wp-content/themes/aborgtheme/video/BG-Video-3.mp4" type="video/mp4">
-  </video>
+  <video muted loop playsinline preload="none" poster="video/hero-poster.jpg" aria-hidden="true"
+         data-src-sm="video/hero-720.mp4" data-src-lg="video/hero-1080.mp4"></video>
+  <script>
+  /* Start the hero video after the page has loaded, so it doesn't compete with the 3D assets.
+     Phones / small screens / data-saver get the 720p file; reduced-motion keeps the poster. */
+  (function(){
+    var v=document.currentScript.previousElementSibling;
+    if (matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    var c=navigator.connection, small=innerWidth<900||(c&&(c.saveData||/2g/.test(c.effectiveType||'')));
+    function go(){ v.src=small?v.dataset.srcSm:v.dataset.srcLg; v.preload='auto'; var p=v.play(); if(p&&p.catch)p.catch(function(){}); }
+    if (document.readyState==='complete') setTimeout(go,150); else addEventListener('load',function(){setTimeout(go,150)},{once:true});
+  })();
+  </script>
   <div class="scanline" aria-hidden="true"></div>
   <div class="wrap">
     <p class="eyebrow mono rv">Security · Technology · Telecom — Ottawa</p>
@@ -714,7 +724,7 @@ window.FCI_SERVICES = [
     });
     gsap.to('.hero video',{scale:1.15,yPercent:8,ease:'none',scrollTrigger:{trigger:'.hero',start:'top top',end:'bottom top',scrub:true}});
     var v=document.querySelector('.hero video');
-    ScrollTrigger.create({trigger:'.hero',start:'top top',end:'bottom top',onLeave:function(){v.pause()},onEnterBack:function(){v.play()}});
+    ScrollTrigger.create({trigger:'.hero',start:'top top',end:'bottom top',onLeave:function(){v.pause()},onEnterBack:function(){if(v.currentSrc){var p=v.play();if(p&&p.catch)p.catch(function(){})}}});
   }
 })();
 </script>
