@@ -1,0 +1,1349 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Security, Technology &amp; Telecom in Ottawa | FCi — One Company, One Call, One Team</title>
+<meta name="description" content="FCi (Fleming Communications Inc.) delivers integrated security, technology and telecom for Ottawa buildings — access control, video surveillance, 24/7 ULC alarm monitoring, Wi-Fi, cellular, audio video and structured cabling.">
+<link rel="canonical" href="https://www.fci.ca/">
+<meta name="theme-color" content="#0A0B0D">
+<meta name="robots" content="index, follow">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="FCi">
+<meta property="og:title" content="FCi — Security, Technology &amp; Telecom. One Company, One Call, One Team.">
+<meta property="og:description" content="Integrated building services from the roof antennas to the parking garage — security, technology and telecom from one Ottawa team.">
+<meta property="og:url" content="https://www.fci.ca/">
+<meta property="og:image" content="https://www.fci.ca/wp-content/uploads/FCi-Technology-logo-Grey-Transparent-1.png">
+<meta property="og:locale" content="en_CA">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@fci_ottawa">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": ["Organization", "LocalBusiness"],
+  "@id": "https://www.fci.ca/#org",
+  "name": "FCi — Fleming Communications Inc.",
+  "legalName": "Fleming Communications Inc.",
+  "url": "https://www.fci.ca/",
+  "logo": "https://www.fci.ca/wp-content/uploads/FCi-Technology-logo-Grey-Transparent-1.png",
+  "telephone": "+1-613-244-6770",
+  "slogan": "One Company, One Call, One Team.",
+  "areaServed": { "@type": "City", "name": "Ottawa" },
+  "address": { "@type": "PostalAddress", "addressLocality": "Ottawa", "addressRegion": "ON", "addressCountry": "CA" },
+  "sameAs": [
+    "https://www.linkedin.com/company/fleming-communications-incorporated",
+    "https://www.facebook.com/FCiOneCompanyOneCall/",
+    "https://twitter.com/fci_ottawa"
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Integrated Building Services",
+    "itemListElement": [
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Cellular Coverage"}},
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"WiFi"}},
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Audio Video"}},
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Data Centre"}},
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Telecom Closet"}},
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Alarm Monitoring"}},
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Surveillance Systems"}},
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Access Control"}},
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Destination Dispatch Elevator"}},
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Security Turnstiles"}},
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Touchless Door Operators"}},
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Parking Management Systems"}}
+    ]
+  }
+}
+</script>
+
+<style>
+/* ============================================================
+   FCi — brand tokens (refreshed)
+   Yellow is the original #F5A81C. Medium grey retired;
+   replaced by a graphite scale with a warm paper white.
+   ============================================================ */
+:root{
+  --y:#F5A81C;          /* FCi yellow — unchanged */
+  --y-hi:#FFC95E;       /* highlight tint */
+  --y-deep:#C7850B;     /* pressed / deep amber */
+  --y-10:rgba(245,168,28,.10);
+  --y-25:rgba(245,168,28,.25);
+  --signal:#F26523;     /* legacy FCi orange — alerts / live only */
+  --blue:#3E8EDE;       /* accent: refreshed FCi blue (was #428BCA on fci.ca) */
+  --blue-hi:#7DB7F0;
+  --blue-deep:#0F2238;
+  --blue-10:rgba(62,142,222,.10);
+  --ink:#0A0B0D;
+  --ink-2:#101216;
+  --ink-3:#171A1F;
+  --steel:#22262D;
+  --steel-2:#2E333B;
+  --line:rgba(255,255,255,.08);
+  --line-2:rgba(255,255,255,.14);
+  --paper:#F3F1EC;
+  --text:#E9E7E2;
+  --mute:#A19D95;
+  --f-display:"Titillium Web","Helvetica Neue",Arial,sans-serif;
+  --f-body:"Inter","Helvetica Neue",Arial,sans-serif;
+  --f-mono:"JetBrains Mono",ui-monospace,Menlo,monospace;
+  --top-h:36px;
+  --nav-h:72px;
+  --wrap:1600px;
+  --ease:cubic-bezier(.2,.7,.1,1);
+}
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-padding-top:calc(var(--top-h) + var(--nav-h))}
+body{margin:0;background:var(--ink);color:var(--text);font:400 16px/1.6 var(--f-body);-webkit-font-smoothing:antialiased;overflow-x:hidden}
+img,video,canvas,svg{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
+h1,h2,h3,h4{font-family:var(--f-display);font-weight:700;line-height:1.02;margin:0;letter-spacing:-.01em}
+p{margin:0}
+.wrap{max-width:var(--wrap);margin:0 auto;padding:0 clamp(20px,4vw,48px)}
+.mono{font-family:var(--f-mono);font-size:.72rem;letter-spacing:.14em;text-transform:uppercase}
+.sr-only{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.skip{position:absolute;left:12px;top:-60px;z-index:200;background:var(--y);color:var(--ink);padding:10px 16px;font-weight:600}
+.skip:focus{top:12px}
+:focus-visible{outline:2px solid var(--y);outline-offset:3px}
+
+/* ---------- buttons ---------- */
+.btn{display:inline-flex;align-items:center;gap:.6em;height:48px;padding:0 22px;font:600 .95rem/1 var(--f-display);letter-spacing:.06em;text-transform:uppercase;position:relative;transition:background .3s var(--ease),color .3s var(--ease),border-color .3s}
+.btn--y{background:var(--y);color:var(--ink);clip-path:polygon(0 0,calc(100% - 12px) 0,100% 12px,100% 100%,12px 100%,0 calc(100% - 12px))}
+.btn--y:hover{background:var(--y-hi)}
+.btn--ghost{border:1px solid var(--line-2);color:var(--text)}
+.btn--ghost:hover{border-color:var(--y);color:var(--y)}
+.btn svg{width:16px;height:16px}
+
+/* ---------- header ---------- */
+.site-header{position:fixed;inset:0 0 auto 0;z-index:100}
+.topbar{height:var(--top-h);background:#060708;border-bottom:1px solid var(--line);font-size:.8rem}
+.topbar .wrap{height:100%;display:flex;align-items:center;justify-content:space-between;gap:16px}
+.live{display:flex;align-items:center;gap:8px;color:var(--mute)}
+.live i{width:7px;height:7px;border-radius:50%;background:#2BD576;box-shadow:0 0 0 0 rgba(43,213,118,.6);animation:ping 2.2s infinite}
+@keyframes ping{0%{box-shadow:0 0 0 0 rgba(43,213,118,.55)}70%{box-shadow:0 0 0 8px rgba(43,213,118,0)}100%{box-shadow:0 0 0 0 rgba(43,213,118,0)}}
+.topbar nav{display:flex;align-items:center;gap:22px}
+.topbar nav a{color:var(--mute);transition:color .2s}
+.topbar nav a:hover{color:var(--text)}
+.topbar .tel{color:var(--text);font-weight:500;display:flex;gap:6px;align-items:center}
+.topbar .tel svg{width:14px;height:14px;color:var(--y)}
+.login{display:inline-flex;align-items:center;gap:8px;height:26px;padding:0 12px;border:1px solid var(--y);color:var(--y)!important;font:600 .74rem/1 var(--f-display);letter-spacing:.1em;text-transform:uppercase;transition:background .2s,color .2s}
+.login:hover{background:var(--y);color:var(--ink)!important}
+.login svg{width:12px;height:12px}
+
+.mainnav{height:var(--nav-h);background:rgba(10,11,13,.55);backdrop-filter:blur(14px) saturate(140%);-webkit-backdrop-filter:blur(14px) saturate(140%);border-bottom:1px solid transparent;transition:height .35s var(--ease),background .35s,border-color .35s}
+.site-header.is-scrolled .mainnav{height:60px;background:rgba(10,11,13,.88);border-color:var(--line)}
+.mainnav .wrap{height:100%;display:flex;align-items:center;justify-content:space-between}
+.logo{display:flex;align-items:center;gap:10px}
+.logo img{height:44px;width:auto;transition:height .35s var(--ease)}
+.site-header.is-scrolled .logo img{height:36px}
+.menu{display:flex;align-items:center;gap:4px;list-style:none;margin:0;padding:0}
+.menu>li{position:relative}
+.menu>li>a{display:flex;align-items:center;gap:6px;height:44px;padding:0 16px;font:600 1rem/1 var(--f-display);letter-spacing:.04em;text-transform:uppercase}
+.menu>li>a::after{content:"";position:absolute;left:16px;right:16px;bottom:4px;height:2px;background:var(--y);transform:scaleX(0);transform-origin:left;transition:transform .35s var(--ease)}
+.menu>li:hover>a::after,.menu>li:focus-within>a::after{transform:scaleX(1)}
+.menu .dd{position:absolute;top:100%;left:0;min-width:280px;padding:14px;background:rgba(16,18,22,.97);border:1px solid var(--line);border-top:2px solid var(--y);opacity:0;visibility:hidden;transform:translateY(8px);transition:.25s var(--ease)}
+.menu>li:hover .dd,.menu>li:focus-within .dd{opacity:1;visibility:visible;transform:none}
+.dd a{display:block;padding:9px 12px;color:var(--mute);font-size:.92rem;border-left:2px solid transparent;transition:.2s}
+.dd a:hover{color:var(--text);border-color:var(--y);background:var(--y-10)}
+.dd .sub{padding-left:26px;font-size:.85rem}
+.nav-cta{display:flex;align-items:center;gap:12px}
+.burger{display:none;width:44px;height:44px;position:relative}
+.burger span{position:absolute;left:11px;right:11px;height:2px;background:var(--text);transition:.3s var(--ease)}
+.burger span:nth-child(1){top:15px}.burger span:nth-child(2){top:21px}.burger span:nth-child(3){top:27px;right:19px}
+.nav-open .burger span:nth-child(1){top:21px;transform:rotate(45deg)}
+.nav-open .burger span:nth-child(2){opacity:0}
+.nav-open .burger span:nth-child(3){top:21px;right:11px;transform:rotate(-45deg)}
+.drawer{position:fixed;inset:calc(var(--top-h) + 60px) 0 0 0;background:var(--ink);z-index:99;padding:16px 20px 40px;overflow:auto;transform:translateX(100%);transition:transform .45s var(--ease);visibility:hidden}
+.nav-open .drawer{transform:none;visibility:visible}
+.drawer details{border-bottom:1px solid var(--line)}
+.drawer summary{list-style:none;display:flex;justify-content:space-between;align-items:center;padding:18px 0;font:700 1.5rem/1 var(--f-display);text-transform:uppercase;cursor:pointer}
+.drawer summary::-webkit-details-marker{display:none}
+.drawer summary::after{content:"+";color:var(--y);font-weight:400}
+.drawer details[open] summary::after{content:"–"}
+.drawer details a{display:block;padding:10px 0 10px 14px;color:var(--mute);border-left:1px solid var(--line)}
+.drawer details div{padding-bottom:16px}
+.drawer .plain{display:block;padding:18px 0;font:700 1.5rem/1 var(--f-display);text-transform:uppercase;border-bottom:1px solid var(--line)}
+.drawer .btn{margin-top:28px;width:100%;justify-content:center}
+
+/* ---------- hero ---------- */
+.hero{position:relative;min-height:100svh;display:flex;align-items:flex-end;overflow:hidden;isolation:isolate}
+.hero video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-3;filter:saturate(.75) contrast(1.05)}
+.hero::before{content:"";position:absolute;inset:0;z-index:-2;background:
+  linear-gradient(180deg,rgba(10,11,13,.75) 0%,rgba(10,11,13,.25) 35%,rgba(10,11,13,.65) 70%,var(--ink) 100%),
+  linear-gradient(90deg,rgba(10,11,13,.85) 0%,rgba(10,11,13,0) 65%)}
+.hero::after{content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;opacity:.5;
+  background-image:linear-gradient(var(--line) 1px,transparent 1px),linear-gradient(90deg,var(--line) 1px,transparent 1px);
+  background-size:64px 64px;mask-image:radial-gradient(ellipse at 30% 60%,#000 0%,transparent 70%);-webkit-mask-image:radial-gradient(ellipse at 30% 60%,#000 0%,transparent 70%)}
+.scanline{position:absolute;left:0;right:0;height:120px;top:-120px;z-index:-1;background:linear-gradient(180deg,transparent,rgba(245,168,28,.06),transparent);animation:scan 7s linear infinite;pointer-events:none}
+@keyframes scan{to{top:100%}}
+.hero .wrap{width:100%;padding-top:calc(var(--top-h) + var(--nav-h) + 40px);padding-bottom:clamp(48px,9vh,110px)}
+.hero .eyebrow{display:inline-flex;align-items:center;gap:12px;color:var(--blue-hi);margin-bottom:26px}
+.hero .eyebrow::before{content:"";width:36px;height:1px;background:var(--y)}
+.hero h1{font-size:clamp(3rem,9.2vw,8.6rem);text-transform:uppercase;letter-spacing:-.02em;line-height:.9;max-width:12ch}
+.hero h1 .w{display:inline-block;overflow:hidden;vertical-align:top;padding-bottom:.06em}
+.hero h1 .w>span{display:inline-block}
+.hero h1 em{font-style:normal;color:var(--y)}
+.hero-sub{max-width:520px;margin-top:28px;color:#CFCBC4;font-size:clamp(1rem,1.3vw,1.15rem)}
+.hero-cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:36px}
+.hero-meta{position:absolute;right:clamp(20px,4vw,48px);bottom:clamp(48px,9vh,110px);display:flex;flex-direction:column;gap:10px;text-align:right}
+.hero-meta a{display:flex;align-items:center;justify-content:flex-end;gap:14px;color:var(--mute);transition:color .2s}
+.hero-meta a:hover{color:var(--y)}
+.hero-meta a b{font:700 1.4rem/1 var(--f-display);color:var(--text);text-transform:uppercase;letter-spacing:.04em}
+.hero-meta a:hover b{color:var(--y)}
+.scroll-cue{position:absolute;left:50%;bottom:18px;transform:translateX(-50%);display:flex;flex-direction:column;align-items:center;gap:8px;color:var(--mute)}
+.scroll-cue i{width:1px;height:44px;background:linear-gradient(var(--y),transparent);animation:cue 1.8s var(--ease) infinite;transform-origin:top}
+@keyframes cue{0%{transform:scaleY(0)}50%{transform:scaleY(1)}100%{transform:scaleY(1);opacity:0}}
+
+/* ---------- section heads ---------- */
+.sec{padding:clamp(80px,12vw,160px) 0;position:relative}
+.sec-glow{background:radial-gradient(ellipse 60% 50% at 0% 0%,rgba(62,142,222,.16),transparent 70%),radial-gradient(ellipse 50% 40% at 100% 100%,rgba(245,168,28,.08),transparent 70%)}
+.sec-head{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:end;margin-bottom:clamp(40px,6vw,80px)}
+.sec-head .mono{color:var(--blue-hi);display:block;margin-bottom:18px}
+.sec-head h2{font-size:clamp(2.4rem,5.5vw,4.8rem);text-transform:uppercase}
+.sec-head p{color:var(--mute);max-width:46ch;justify-self:end}
+
+/* ---------- pillars ---------- */
+.pillars{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line)}
+.pillar{position:relative;background:var(--ink-2);padding:clamp(28px,3vw,44px);min-height:460px;display:flex;flex-direction:column;overflow:hidden;transition:background .4s}
+.pillar:hover{background:var(--ink-3)}
+.pillar .idx{color:var(--mute)}
+.pillar .ico{width:56px;height:56px;margin:46px 0 30px;color:var(--y);filter:drop-shadow(0 0 18px rgba(62,142,222,.45))}
+.pillar{background-image:linear-gradient(180deg,rgba(62,142,222,.07),transparent 45%)}
+.pillar h3{font-size:2.4rem;text-transform:uppercase;margin-bottom:14px}
+.pillar p{color:var(--mute);margin-bottom:26px}
+.pillar ul{list-style:none;padding:0;margin:0 0 30px;display:flex;flex-wrap:wrap;gap:8px}
+.pillar li{font-size:.78rem;padding:6px 10px;border:1px solid var(--line-2);color:#CFCBC4}
+.pillar .more{margin-top:auto;display:inline-flex;align-items:center;gap:10px;font:600 .9rem/1 var(--f-display);letter-spacing:.1em;text-transform:uppercase;color:var(--y)}
+.pillar .more svg{width:18px;transition:transform .3s var(--ease)}
+.pillar:hover .more svg{transform:translateX(6px)}
+/* reticle corners */
+.pillar::before,.pillar::after{content:"";position:absolute;width:22px;height:22px;border:2px solid var(--y);opacity:0;transition:.4s var(--ease)}
+.pillar::before{top:14px;left:14px;border-right:0;border-bottom:0;transform:translate(10px,10px)}
+.pillar::after{bottom:14px;right:14px;border-left:0;border-top:0;transform:translate(-10px,-10px)}
+.pillar:hover::before,.pillar:hover::after{opacity:1;transform:none}
+.circuit{position:absolute;right:-20px;top:30px;width:220px;opacity:.18;color:var(--y);pointer-events:none}
+.circuit path{stroke-dasharray:400;stroke-dashoffset:400;transition:stroke-dashoffset 1.4s var(--ease)}
+.pillar:hover .circuit path{stroke-dashoffset:0}
+
+/* ============================================================
+   INTEGRATED BUILDING SERVICES — 3D scrollytelling
+   ============================================================ */
+.ibs{position:relative;background:var(--ink)}
+.ibs--3d .ibs-stage{background:
+  radial-gradient(ellipse 55% 38% at 84% 74%,rgba(255,170,80,.55) 0%,rgba(245,120,40,.18) 40%,transparent 70%),
+  radial-gradient(ellipse 80% 30% at 50% 78%,rgba(245,168,28,.16) 0%,transparent 70%),
+  linear-gradient(180deg,#081221 0%,#0F2238 34%,#1D3553 56%,#4A4250 70%,#8A5A3A 78%,#1A1512 86%,#0A0B0D 100%)}
+.ibs-stage{position:relative}
+.ibs-intro{padding:clamp(80px,12vw,140px) 0 40px}
+.ibs-intro .mono{color:var(--y);display:block;margin-bottom:18px}
+.ibs-intro h2{font-size:clamp(2.4rem,6vw,5.4rem);text-transform:uppercase;max-width:12ch}
+.ibs-intro p{color:var(--mute);max-width:52ch;margin-top:20px}
+.ibs-canvas,.ibs-video,.ibs-svg,.ibs-rail,.ibs-hud{display:none}
+
+/* static fallback (no WebGL / reduced motion / no JS) */
+.ibs-list{list-style:none;margin:0;padding:0 0 120px;display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1px;background:var(--line)}
+.ibs-item{background:var(--ink-2);padding:28px;position:relative}
+.ibs-item .meta{display:flex;gap:10px;color:var(--y);margin-bottom:14px}
+.ibs-item .meta span:not(:first-child){color:var(--mute)}
+.ibs-item h3{font-size:1.7rem;text-transform:uppercase;margin-bottom:10px}
+.ibs-item p{color:var(--mute)}
+.ibs-item .svc-img{margin:0 0 14px;height:180px;display:flex;justify-content:center;align-items:center;perspective:800px}
+.ibs-item .svc-img img{height:100%;width:auto;max-width:100%;object-fit:contain;filter:drop-shadow(0 14px 22px rgba(0,0,0,.55))}
+.ibs--3d .ibs-item .svc-img{height:clamp(130px,19vh,200px);margin:-6px 0 10px}
+.ibs-item .go{display:inline-flex;margin-top:16px;color:var(--y);font:600 .82rem/1 var(--f-display);letter-spacing:.12em;text-transform:uppercase;gap:8px}
+
+/* 3D mode */
+.ibs--3d .ibs-stage{height:100svh;overflow:hidden}
+.ibs--3d .ibs-canvas{display:block;position:absolute;inset:0;width:100%;height:100%}
+.ibs--3d .ibs-video{display:block;position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;pointer-events:none}
+.ibs--3d .ibs-svg{display:block;position:absolute;inset:0;width:100%;height:100%;pointer-events:none;overflow:visible}
+.ibs--3d .ibs-intro{position:absolute;left:0;right:0;top:calc(var(--top-h) + var(--nav-h));padding-top:clamp(30px,6vh,70px);pointer-events:none;z-index:2}
+.ibs--3d .ibs-list{margin:0;max-width:none;position:absolute;left:clamp(20px,4vw,64px);top:50%;transform:translateY(-50%);width:min(400px,28vw);display:block;background:none;padding:0;z-index:3}
+.ibs--3d .ibs-item{position:absolute;left:0;top:0;transform:translateY(-50%);width:100%;opacity:0;visibility:hidden;background:rgba(14,16,20,.72);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border:1px solid var(--line);border-left:2px solid var(--y);padding:30px 30px 28px;transition:opacity .35s,visibility .35s}
+.ibs--3d .ibs-item.is-active{opacity:1;visibility:visible}
+.ibs--3d .ibs-item h3{font-size:clamp(2rem,3.2vw,3rem);line-height:.95;margin-bottom:16px}
+.ibs--3d .ibs-item .num{position:absolute;right:22px;top:18px;font:700 3.4rem/1 var(--f-display);color:transparent;-webkit-text-stroke:1px rgba(245,168,28,.4)}
+.ibs-item .num{display:none}
+.ibs--3d .ibs-item .num{display:block}
+.ibs--3d .ibs-svg path{fill:none;stroke:var(--y);stroke-width:1.5}
+.ibs--3d .ibs-svg .dot{fill:var(--y)}
+.ibs--3d .ibs-svg .ring{fill:none;stroke:var(--y);stroke-width:1.5;transform-box:fill-box;transform-origin:center;animation:ring 1.6s ease-out infinite}
+@keyframes ring{from{transform:scale(.4);opacity:1}to{transform:scale(2.6);opacity:0}}
+
+.ibs--3d .ibs-rail{display:flex;flex-direction:column;gap:2px;position:absolute;right:clamp(16px,2.5vw,36px);top:50%;transform:translateY(-50%);z-index:3;list-style:none;margin:0;padding:0}
+.ibs-rail button{display:flex;align-items:center;justify-content:flex-end;gap:10px;height:26px;color:var(--mute);font:500 .68rem/1 var(--f-mono);letter-spacing:.12em;text-transform:uppercase}
+.ibs-rail button{position:relative;width:40px;margin-left:auto}
+.ibs-rail button span{position:absolute;right:calc(100% + 10px);opacity:0;transform:translateX(6px);transition:.25s var(--ease);white-space:nowrap;pointer-events:none}
+.ibs-rail{opacity:0;transition:opacity .4s}
+.ibs-rail.on{opacity:1}
+.ibs-rail button i{width:14px;height:2px;background:var(--steel-2);transition:.3s var(--ease)}
+.ibs-rail button:hover span,.ibs-rail button.is-active span{opacity:1;transform:none}
+.ibs-rail button.is-active{color:var(--y)}
+.ibs-rail button.is-active i{width:32px;background:var(--y)}
+.ibs-rail button:hover i{background:var(--text)}
+
+.ibs--3d .ibs-hud{display:flex;position:absolute;left:clamp(20px,4vw,48px);right:clamp(20px,4vw,48px);bottom:22px;z-index:3;align-items:center;gap:18px;color:var(--mute);pointer-events:none}
+.ibs-hud .bar{flex:1;height:1px;background:var(--line-2);position:relative}
+.ibs-hud .bar i{position:absolute;inset:0;background:linear-gradient(90deg,var(--blue),var(--y));transform-origin:left;transform:scaleX(0)}
+.ibs-hud .count b{color:var(--y);font-weight:500}
+
+/* ---------- partners ---------- */
+.partners{border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:42px 0;overflow:hidden;background:var(--ink)}
+.partners .mono{color:var(--mute);text-align:center;margin-bottom:26px}
+.marquee{display:flex;width:max-content;animation:mq 34s linear infinite}
+.partners:hover .marquee{animation-play-state:paused}
+.marquee ul{display:flex;list-style:none;margin:0;padding:0}
+.marquee li{padding:0 clamp(28px,4vw,64px);font:700 clamp(1.6rem,2.6vw,2.4rem)/1 var(--f-display);text-transform:uppercase;color:#5d5a55;letter-spacing:.04em;transition:color .3s;display:flex;align-items:center;gap:clamp(28px,4vw,64px)}
+.marquee li::after{content:"";width:6px;height:6px;background:var(--y);transform:rotate(45deg);opacity:.6}
+.marquee li:hover{color:var(--text)}
+@keyframes mq{to{transform:translateX(-50%)}}
+
+/* ---------- one call ---------- */
+.call{position:relative;overflow:hidden;background:radial-gradient(ellipse 70% 80% at 85% 50%,rgba(62,142,222,.22),transparent 65%),linear-gradient(180deg,var(--ink),var(--blue-deep) 140%)}
+.call .wrap{display:grid;grid-template-columns:1.2fr 1fr;gap:60px;align-items:center}
+.call h2{font-size:clamp(3rem,8vw,7.4rem);text-transform:uppercase;line-height:.88}
+.call h2 em{font-style:normal;color:var(--y)}
+.call-card{border:1px solid var(--line-2);padding:clamp(28px,3vw,44px);background:linear-gradient(160deg,var(--ink-3),var(--ink-2));position:relative}
+.call-card::before{content:"";position:absolute;top:-1px;left:-1px;width:60px;height:60px;border-top:2px solid var(--y);border-left:2px solid var(--y)}
+.call-card .phone{display:block;font:700 clamp(2rem,4vw,3.2rem)/1 var(--f-display);color:var(--y);margin:12px 0 18px;letter-spacing:.01em}
+.call-card p{color:var(--mute);margin-bottom:28px}
+.call-card .row{display:flex;flex-wrap:wrap;gap:12px}
+.call-bg{position:absolute;right:-6vw;top:50%;transform:translateY(-50%);font:700 38vw/1 var(--f-display);color:transparent;-webkit-text-stroke:1px rgba(255,255,255,.035);pointer-events:none;user-select:none}
+
+/* ---------- footer ---------- */
+.foot{background:#060708;border-top:1px solid var(--line);padding:80px 0 30px;font-size:.92rem}
+.foot-grid{display:grid;grid-template-columns:1.4fr repeat(4,1fr);gap:40px}
+.foot h4{font-size:1rem;text-transform:uppercase;letter-spacing:.1em;margin-bottom:18px;color:var(--text)}
+.foot ul{list-style:none;padding:0;margin:0;display:grid;gap:10px}
+.foot ul a{color:var(--mute);transition:color .2s}
+.foot ul a:hover{color:var(--y)}
+.foot .brand p{color:var(--mute);margin:18px 0 24px;max-width:32ch}
+.news{display:flex;border:1px solid var(--line-2);max-width:360px}
+.news input{flex:1;min-width:0;background:none;border:0;color:var(--text);padding:0 14px;height:48px;font:inherit}
+.news input::placeholder{color:#6d6a64}
+.news button{width:52px;background:var(--y);color:var(--ink);display:grid;place-items:center}
+.news button svg{width:18px}
+.social{display:flex;gap:10px;margin-top:22px}
+.social a{width:40px;height:40px;border:1px solid var(--line-2);display:grid;place-items:center;color:var(--mute);transition:.2s}
+.social a:hover{border-color:var(--y);color:var(--y)}
+.social svg{width:16px;height:16px}
+.foot-bottom{margin-top:64px;padding-top:24px;border-top:1px solid var(--line);display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;color:#6d6a64;font-size:.82rem}
+.foot-bottom nav{display:flex;gap:20px}
+.foot-bottom a:hover{color:var(--y)}
+
+.to-top{position:fixed;right:clamp(16px,2.5vw,32px);bottom:clamp(16px,2.5vw,32px);z-index:90;width:52px;height:52px;display:grid;place-items:center;
+  background:var(--y);color:var(--ink);clip-path:polygon(0 0,calc(100% - 12px) 0,100% 12px,100% 100%,12px 100%,0 calc(100% - 12px));
+  opacity:0;visibility:hidden;transform:translateY(12px);transition:opacity .3s,transform .3s var(--ease),visibility .3s,background .2s}
+.to-top.show{opacity:1;visibility:visible;transform:none}
+.to-top:hover{background:var(--y-hi)}
+.to-top svg{width:20px;height:20px;transition:transform .3s var(--ease)}
+.to-top:hover svg{transform:translateY(-3px)}
+.ibs--3d .ibs-hud{right:calc(clamp(16px,2.5vw,32px) + 72px)}
+
+/* ---------- reveal ---------- */
+.rv{opacity:0;transform:translateY(30px)}
+.no-js .rv,.reduced .rv{opacity:1;transform:none}
+
+/* ============================================================
+   Responsive
+   ============================================================ */
+@media (max-width:1080px){
+  .menu,.topbar nav .hide-md{display:none}
+  .burger{display:block}
+  .nav-cta .btn{display:none}
+  :root{--nav-h:60px}
+  .pillars{grid-template-columns:1fr}
+  .pillar{min-height:auto}
+  .foot-grid{grid-template-columns:1fr 1fr}
+  .foot .brand{grid-column:1/-1}
+  .hero-meta{display:none}
+}
+@media (max-width:760px){
+  :root{--top-h:40px}
+  .topbar .live span.long{display:none}
+  .topbar .tel span{display:none}
+  .topbar .tel svg{width:18px;height:18px}
+  .live{white-space:nowrap}
+  .topbar nav{gap:14px}
+  .logo img{height:36px}
+  .sec-head{grid-template-columns:1fr;gap:18px}
+  .sec-head p{justify-self:start}
+  .call .wrap{grid-template-columns:1fr;gap:36px}
+  .hero h1{font-size:clamp(2.7rem,13vw,4.4rem)}
+  .hero .wrap{padding-bottom:90px}
+  .btn{height:46px;padding:0 18px;font-size:.88rem}
+  /* 3D on mobile: building top, card bottom */
+  .ibs--3d .ibs-intro h2{font-size:clamp(2rem,10vw,3rem)}
+  .ibs--3d .ibs-intro p{display:none}
+  .ibs--3d .ibs-list{left:16px;right:16px;width:auto;top:auto;bottom:calc(46px + env(safe-area-inset-bottom));transform:none}
+  .ibs--3d .ibs-item{top:auto;bottom:0;transform:none;padding:22px 20px 20px}
+  .ibs--3d .ibs-item h3{font-size:1.9rem;margin-bottom:10px;padding-right:60px}
+  .ibs--3d .ibs-item p{font-size:.94rem}
+  .ibs--3d .ibs-item .svc-img{height:96px;justify-content:flex-start;margin:-4px 0 8px}
+  .ibs--3d .ibs-item .num{font-size:2.6rem}
+  .ibs--3d .ibs-rail{display:none}
+  .foot-grid{grid-template-columns:1fr 1fr;gap:32px}
+}
+@media (min-width:761px) and (max-width:1099px) and (orientation:portrait){
+  .ibs--3d .ibs-intro p{display:none}
+  .ibs--3d .ibs-list{left:32px;right:auto;width:min(560px,calc(100% - 64px));top:auto;bottom:calc(56px + env(safe-area-inset-bottom));transform:none}
+  .ibs--3d .ibs-item{top:auto;bottom:0;transform:none;padding:26px 28px 24px}
+  .ibs--3d .ibs-item h3{font-size:2.4rem;padding-right:70px}
+  .ibs--3d .ibs-item .svc-img{height:130px;justify-content:flex-start}
+  .ibs--3d .ibs-rail{display:none}
+}
+@media (max-height:540px) and (orientation:landscape){
+  /* phones held sideways: compact card that fits between the header and the progress bar */
+  .ibs--3d .ibs-intro h2{font-size:clamp(1.8rem,5vw,2.6rem)}
+  .ibs--3d .ibs-intro p{display:none}
+  .ibs--3d .ibs-list{top:calc(var(--top-h) + var(--nav-h) + 10px);transform:none;width:min(330px,40vw)}
+  .ibs--3d .ibs-item{top:0;transform:none;padding:14px 16px 12px}
+  .ibs--3d .ibs-item .svc-img,.ibs--3d .ibs-item .num{display:none}
+  .ibs--3d .ibs-item .meta{margin-bottom:6px}
+  .ibs--3d .ibs-item h3{font-size:1.45rem;margin-bottom:6px}
+  .ibs--3d .ibs-item p{font-size:.82rem;line-height:1.45}
+  .ibs--3d .ibs-item .go{margin-top:8px}
+  .ibs--3d .ibs-rail{display:none}
+}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none!important;transition:none!important}
+}
+</style>
+</head>
+<body class="no-js">
+<a class="skip" href="#main">Skip to content</a>
+
+<!-- ======================= HEADER ======================= -->
+<header class="site-header" id="top">
+  <div class="topbar">
+    <div class="wrap">
+      <div class="live mono"><i aria-hidden="true"></i><span>24/7 ULC <span class="long">Monitoring</span></span></div>
+      <nav aria-label="Utility">
+        <a class="hide-md" href="https://www.fci.ca/partnerships/">Partnerships</a>
+        <a class="hide-md" href="https://www.fci.ca/blog/">Blog</a>
+        <a class="hide-md" href="https://www.fci.ca/contact/">Contact</a>
+        <a class="tel" href="tel:+16132446770" aria-label="Call FCi at 613-244-6770">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg>
+          <span>613-244-6770</span></a>
+        <a class="login" href="https://tools.fci.on.ca/jobbuilder/Logon.aspx" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><rect x="4" y="11" width="16" height="10" rx="1"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg>
+          Client Login</a>
+      </nav>
+    </div>
+  </div>
+  <div class="mainnav">
+    <div class="wrap">
+      <a class="logo" href="https://www.fci.ca/" aria-label="FCi home">
+        <img src="https://www.fci.ca/wp-content/uploads/FCi-Technology-logo-Grey-Transparent-1.png" alt="FCi — Fleming Communications Inc." width="680" height="456">
+      </a>
+      <nav aria-label="Primary">
+        <ul class="menu">
+          <li><a href="https://www.fci.ca/commercial-security-ottawa/">Security</a>
+            <div class="dd"><a href="https://www.fci.ca/commercial-security-ottawa/">Access Control</a><a href="https://www.fci.ca/commercial-security-ottawa/">Video Surveillance</a><a href="https://www.fci.ca/commercial-security-ottawa/">Alarm Monitoring</a><a href="https://www.fci.ca/commercial-security-ottawa/">Intrusion Detection</a></div></li>
+          <li><a href="https://www.fci.ca/technology/">Technology</a>
+            <div class="dd"><a href="https://www.fci.ca/technology/">Audio Video</a><a class="sub" href="https://www.fci.ca/technology/">Workplace Room Solutions</a><a class="sub" href="https://www.fci.ca/technology/">Digital Display Solutions</a><a class="sub" href="https://www.fci.ca/technology/">Communication Solutions</a><a href="https://www.fci.ca/technology/">Wireless / Wireless LAN</a><a href="https://www.fci.ca/technology/">Cellular Enhancement</a><a href="https://www.fci.ca/technology/">Sound Masking</a><a href="https://www.fci.ca/technology/">PoE Lighting</a><a href="https://www.fci.ca/technology/">Audit Services</a></div></li>
+          <li><a href="https://www.fci.ca/telecom-ottawa/">Telecom</a>
+            <div class="dd"><a href="https://www.fci.ca/telecom-ottawa/">Structured Cabling</a><a href="https://www.fci.ca/telecom-ottawa/">Technical Staffing</a></div></li>
+          <li><a href="https://www.fci.ca/ottawa-security-telecom-technology/">About</a>
+            <div class="dd"><a href="https://www.fci.ca/ottawa-security-telecom-technology/">Team</a><a href="https://www.fci.ca/ottawa-security-telecom-technology/">Health &amp; Safety</a><a href="https://www.fci.ca/ottawa-security-telecom-technology/">Careers</a></div></li>
+        </ul>
+      </nav>
+      <div class="nav-cta">
+        <a class="btn btn--y" href="https://www.fci.ca/contact/">Contact</a>
+        <button class="burger" aria-label="Open menu" aria-expanded="false" aria-controls="drawer"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<nav class="drawer" id="drawer" aria-label="Mobile">
+  <details><summary>Security</summary><div><a href="https://www.fci.ca/commercial-security-ottawa/">Access Control</a><a href="https://www.fci.ca/commercial-security-ottawa/">Video Surveillance</a><a href="https://www.fci.ca/commercial-security-ottawa/">Alarm Monitoring</a><a href="https://www.fci.ca/commercial-security-ottawa/">Intrusion Detection</a></div></details>
+  <details><summary>Technology</summary><div><a href="https://www.fci.ca/technology/">Audio Video</a><a href="https://www.fci.ca/technology/">Wireless / Wireless LAN</a><a href="https://www.fci.ca/technology/">Cellular Enhancement</a><a href="https://www.fci.ca/technology/">Sound Masking</a><a href="https://www.fci.ca/technology/">PoE Lighting</a><a href="https://www.fci.ca/technology/">Audit Services</a></div></details>
+  <details><summary>Telecom</summary><div><a href="https://www.fci.ca/telecom-ottawa/">Structured Cabling</a><a href="https://www.fci.ca/telecom-ottawa/">Technical Staffing</a></div></details>
+  <details><summary>About</summary><div><a href="https://www.fci.ca/ottawa-security-telecom-technology/">Team</a><a href="https://www.fci.ca/ottawa-security-telecom-technology/">Health &amp; Safety</a><a href="https://www.fci.ca/ottawa-security-telecom-technology/">Careers</a></div></details>
+  <a class="plain" href="https://www.fci.ca/partnerships/">Partnerships</a>
+  <a class="plain" href="https://www.fci.ca/blog/">Blog</a>
+  <a class="btn btn--y" href="https://www.fci.ca/contact/">Contact FCi</a>
+  <a class="btn btn--ghost" href="https://tools.fci.on.ca/jobbuilder/Logon.aspx" rel="noopener" style="margin-top:12px">Client Login</a>
+</nav>
+
+<main id="main">
+
+<!-- ======================= HERO ======================= -->
+<section class="hero" aria-labelledby="hero-h">
+  <video autoplay muted loop playsinline preload="metadata" aria-hidden="true">
+    <source src="https://www.fci.ca/wp-content/themes/aborgtheme/video/BG-Video-3.mp4" type="video/mp4">
+  </video>
+  <div class="scanline" aria-hidden="true"></div>
+  <div class="wrap">
+    <p class="eyebrow mono rv">Security · Technology · Telecom — Ottawa</p>
+    <h1 id="hero-h"><span class="w"><span>One</span></span> <span class="w"><span>Company,</span></span><br><span class="w"><span>One</span></span> <span class="w"><span><em>Call,</em></span></span><br><span class="w"><span>One</span></span> <span class="w"><span>Team.</span></span></h1>
+    <p class="hero-sub rv">Industry-leading security, technology and telecom, backed by the technical expertise, experience and service to keep your building protected and connected.</p>
+    <div class="hero-cta rv">
+      <a class="btn btn--y" href="https://www.fci.ca/contact/">Talk to an expert
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      <a class="btn btn--ghost" href="#building">Explore the building</a>
+    </div>
+  </div>
+  <div class="hero-meta" aria-hidden="true">
+    <a href="#pillar-security"><span class="mono">01</span><b>Security</b></a>
+    <a href="#pillar-technology"><span class="mono">02</span><b>Technology</b></a>
+    <a href="#pillar-telecom"><span class="mono">03</span><b>Telecom</b></a>
+  </div>
+  <div class="scroll-cue mono" aria-hidden="true"><i></i></div>
+</section>
+
+<!-- ======================= INTEGRATED BUILDING SERVICES ======================= -->
+<section class="ibs" id="building" aria-labelledby="ibs-h">
+  <div class="ibs-stage">
+    <canvas class="ibs-canvas" aria-hidden="true"></canvas>
+    <!-- Scroll-scrubbed intro video slot: set INTRO_VIDEO in the script below -->
+    <video class="ibs-video" muted playsinline preload="auto" aria-hidden="true"></video>
+    <svg class="ibs-svg" aria-hidden="true"><path pathLength="1" d=""/><circle class="ring" r="7"/><circle class="dot" r="4"/></svg>
+
+    <div class="ibs-intro">
+      <div class="wrap">
+        <span class="mono">Integrated Building Services</span>
+        <h2 id="ibs-h">Covered from the roof to the parkade.</h2>
+        <p>Security, telecom and technology — one provider for every floor of your facility. Scroll to move through the building.</p>
+      </div>
+    </div>
+
+    <!-- Content is real HTML: indexable, readable without JS, and the 3D scene simply drives which item is shown. -->
+    <ol class="ibs-list wrap"></ol>
+
+    <ul class="ibs-rail" aria-label="Jump to a service"></ul>
+    <div class="ibs-hud mono" aria-hidden="true"><span class="count"><b>00</b> / 12</span><span class="bar"><i></i></span><span class="lvl">Roof</span></div>
+  </div>
+</section>
+
+<!-- ======================= PILLARS ======================= -->
+<section class="sec sec-glow" aria-labelledby="exp-h">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <span class="mono rv">Why FCi</span>
+        <h2 id="exp-h" class="rv">Experience is the difference.</h2>
+      </div>
+      <p class="rv">Our experience is what sets us apart. FCi is a leader in security, telecom and technology — one partner that designs, installs and supports every system in your facility.</p>
+    </div>
+    <div class="pillars">
+      <article class="pillar rv" id="pillar-security">
+        <svg class="circuit" viewBox="0 0 220 120" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M0 20h80l20 20h60l20-20h40M40 20v60h60l20 20h100"/></svg>
+        <span class="idx mono">01 / Security</span>
+        <svg class="ico" viewBox="0 0 56 56" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M28 4 8 12v14c0 13 8.5 22 20 26 11.5-4 20-13 20-26V12L28 4z"/><path d="M20 28l6 6 11-12"/></svg>
+        <h3>Security</h3>
+        <p>Access control, video surveillance, alarm monitoring and more — sourced from leading partners and delivered by certified experts.</p>
+        <ul><li>Access Control</li><li>Video Surveillance</li><li>Alarm Monitoring</li><li>Intrusion Detection</li></ul>
+        <a class="more" href="https://www.fci.ca/commercial-security-ottawa/">Learn more <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 12h18M15 6l6 6-6 6"/></svg><span class="sr-only"> about security</span></a>
+      </article>
+      <article class="pillar rv" id="pillar-technology">
+        <svg class="circuit" viewBox="0 0 220 120" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M0 60h50l20-30h70l20 30h60M90 30V0M140 30v80"/></svg>
+        <span class="idx mono">02 / Technology</span>
+        <svg class="ico" viewBox="0 0 56 56" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="14" y="14" width="28" height="28"/><rect x="22" y="22" width="12" height="12"/><path d="M20 4v10M28 4v10M36 4v10M20 42v10M28 42v10M36 42v10M4 20h10M4 28h10M4 36h10M42 20h10M42 28h10M42 36h10"/></svg>
+        <h3>Technology</h3>
+        <p>Wireless, audio video, sound masking, cellular enhancement, PoE lighting and audit services — the systems that make a building work smarter.</p>
+        <ul><li>Audio Video</li><li>Wireless LAN</li><li>Cellular Enhancement</li><li>Sound Masking</li><li>PoE Lighting</li><li>Audit Services</li></ul>
+        <a class="more" href="https://www.fci.ca/technology/">Learn more <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 12h18M15 6l6 6-6 6"/></svg><span class="sr-only"> about technology</span></a>
+      </article>
+      <article class="pillar rv" id="pillar-telecom">
+        <svg class="circuit" viewBox="0 0 220 120" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M0 90h40l30-60h40l30 60h80M110 30V0"/></svg>
+        <span class="idx mono">03 / Telecom</span>
+        <svg class="ico" viewBox="0 0 56 56" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M28 30v22M18 52h20"/><circle cx="28" cy="24" r="5"/><path d="M18 14a14 14 0 0 0 0 20M38 14a14 14 0 0 1 0 20M11 8a24 24 0 0 0 0 32M45 8a24 24 0 0 1 0 32"/></svg>
+        <h3>Telecom</h3>
+        <p>Infrastructure management for facility and enterprise telecom — structured cabling and technical staffing with a proven track record.</p>
+        <ul><li>Structured Cabling</li><li>Technical Staffing</li></ul>
+        <a class="more" href="https://www.fci.ca/telecom-ottawa/">Learn more <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 12h18M15 6l6 6-6 6"/></svg><span class="sr-only"> about telecom</span></a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ======================= PARTNERS ======================= -->
+<section class="partners" aria-labelledby="partners-h">
+  <h2 id="partners-h" class="mono">Partners &amp; Affiliations</h2>
+  <div class="marquee" aria-hidden="false">
+    <ul><li>Bell</li><li>BICSI</li><li>Black Box</li><li>BOMA</li><li>CANASA</li><li>OCA</li><li>Rogers</li><li>TELUS</li></ul>
+    <ul aria-hidden="true"><li>Bell</li><li>BICSI</li><li>Black Box</li><li>BOMA</li><li>CANASA</li><li>OCA</li><li>Rogers</li><li>TELUS</li></ul>
+  </div>
+</section>
+
+<!-- ======================= ONE CALL ======================= -->
+<section class="sec call" aria-labelledby="call-h">
+  <div class="call-bg" aria-hidden="true">FCi</div>
+  <div class="wrap">
+    <h2 id="call-h" class="rv">One call<br>covers <em>every</em><br>floor.</h2>
+    <div class="call-card rv">
+      <span class="mono" style="color:var(--mute)">Talk to the team</span>
+      <a class="phone" href="tel:+16132446770">613-244-6770</a>
+      <p>Security, technology and telecom from a single, accountable team — with 24/7 ULC monitoring behind it.</p>
+      <div class="row">
+        <a class="btn btn--y" href="https://www.fci.ca/contact/">Contact us</a>
+        <a class="btn btn--ghost" href="https://tools.fci.on.ca/jobbuilder/Logon.aspx" rel="noopener">Client Login</a>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<!-- ======================= FOOTER ======================= -->
+<footer class="foot">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="brand">
+        <img src="https://www.fci.ca/wp-content/uploads/FCi-Technology-logo-Grey-Transparent-1.png" alt="FCi" width="680" height="456" style="height:52px;width:auto" loading="lazy">
+        <p>One Company, One Call, One Team. Subscribe to our mailing list.</p>
+        <form class="news" action="#" onsubmit="event.preventDefault();this.querySelector('input').value='';this.querySelector('input').placeholder='Thanks — you’re subscribed';">
+          <label class="sr-only" for="nl">Email address</label>
+          <input id="nl" type="email" required placeholder="Email address" autocomplete="email">
+          <button aria-label="Subscribe"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+        </form>
+        <div class="social">
+          <a href="https://www.linkedin.com/company/fleming-communications-incorporated" aria-label="LinkedIn" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.7h.1c.5-1 1.8-2 3.8-2 4 0 4.8 2.6 4.8 6V21h-4v-5.5c0-1.3 0-3-1.8-3s-2.1 1.4-2.1 2.9V21H9z"/></svg></a>
+          <a href="https://www.facebook.com/FCiOneCompanyOneCall/" aria-label="Facebook" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M14 8h3V4h-3c-2.8 0-4 1.8-4 4.3V10H7v4h3v8h4v-8h3l1-4h-4V8.6c0-.4.3-.6.6-.6z"/></svg></a>
+          <a href="https://twitter.com/fci_ottawa" aria-label="X (Twitter)" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.2 2H21l-6.5 7.4L22 22h-6l-4.7-6.2L5.9 22H3l7-8L2 2h6.1l4.3 5.7zm-1 18h1.6L7 4H5.3z"/></svg></a>
+        </div>
+      </div>
+      <div><h4>Security</h4><ul><li><a href="https://www.fci.ca/commercial-security-ottawa/">Access Control</a></li><li><a href="https://www.fci.ca/commercial-security-ottawa/">Video Surveillance</a></li><li><a href="https://www.fci.ca/commercial-security-ottawa/">Alarm Monitoring</a></li><li><a href="https://www.fci.ca/commercial-security-ottawa/">Intrusion Detection</a></li></ul></div>
+      <div><h4>Technology</h4><ul><li><a href="https://www.fci.ca/technology/">Audio Video</a></li><li><a href="https://www.fci.ca/technology/">Wireless LAN</a></li><li><a href="https://www.fci.ca/technology/">Cellular Enhancement</a></li><li><a href="https://www.fci.ca/technology/">Sound Masking</a></li><li><a href="https://www.fci.ca/technology/">PoE Lighting</a></li><li><a href="https://www.fci.ca/technology/">Audit Services</a></li></ul></div>
+      <div><h4>Telecom</h4><ul><li><a href="https://www.fci.ca/telecom-ottawa/">Structured Cabling</a></li><li><a href="https://www.fci.ca/telecom-ottawa/">Technical Staffing</a></li></ul></div>
+      <div><h4>Company</h4><ul><li><a href="https://www.fci.ca/ottawa-security-telecom-technology/">About</a></li><li><a href="https://www.fci.ca/ottawa-security-telecom-technology/">Careers</a></li><li><a href="https://www.fci.ca/partnerships/">Partnerships</a></li><li><a href="https://www.fci.ca/blog/">Blog</a></li><li><a href="https://www.fci.ca/contact/">Contact</a></li><li><a href="https://tools.fci.on.ca/jobbuilder/Logon.aspx" rel="noopener">Client Login</a></li></ul></div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 Fleming Communications Inc. All rights reserved.</span>
+      <nav aria-label="Legal"><a href="https://www.fci.ca/privacy-policy/">Disclaimer &amp; Privacy Statement</a><a href="https://www.fci.ca/accessibility/">Accessibility</a></nav>
+    </div>
+  </div>
+</footer>
+
+<a class="to-top" href="#top" aria-label="Back to top">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+</a>
+
+<!-- Services content (single source of truth — edit copy here). Rendered into real HTML before any 3D runs. -->
+<script>
+window.FCI_SERVICES = [
+  { id:"cellular",     title:"Cellular Coverage",            cat:"Technology", where:"Roof",           url:"https://www.fci.ca/technology/",
+    desc:"Give tenants and visitors the constant, reliable mobile connectivity they expect — on every floor." },
+  { id:"wifi",         title:"WiFi",                         cat:"Technology", where:"Level 20",       url:"https://www.fci.ca/technology/",
+    desc:"Wireless internet throughout your premises — a modern business necessity." },
+  { id:"av",           title:"Audio Video",                  cat:"Technology", where:"Level 18",       url:"https://www.fci.ca/technology/",
+    desc:"Make remote and hybrid work more productive with meeting-room technology that is feature-rich, easy to use and more affordable than ever." },
+  { id:"data",         title:"Data Centre",                  cat:"Telecom",    where:"Level 15",       url:"https://www.fci.ca/telecom-ottawa/",
+    desc:"Flexible staffing and technical resources for the central hub that carries your most crucial connections." },
+  { id:"telecom",      title:"Telecom Closet",               cat:"Telecom",    where:"Level 12",       url:"https://www.fci.ca/telecom-ottawa/",
+    desc:"Organized solutions that properly house your facility’s critical telecom components." },
+  { id:"alarm",        title:"Alarm Monitoring",             cat:"Security",   where:"Level 10",       url:"https://www.fci.ca/commercial-security-ottawa/",
+    desc:"A critical line of defence in your facility’s security plan, backed by 24/7 ULC monitoring." },
+  { id:"surveillance", title:"Surveillance Systems",         cat:"Security",   where:"Level 7",        url:"https://www.fci.ca/commercial-security-ottawa/",
+    desc:"Protect your premises with the latest in video technology, using IP digital video surveillance." },
+  { id:"access",       title:"Access Control",               cat:"Security",   where:"Level 4",        url:"https://www.fci.ca/commercial-security-ottawa/",
+    desc:"Increase safety, improve accountability and secure your facility with network-based card access systems." },
+  { id:"elevator",     title:"Destination Dispatch Elevator",cat:"Building Systems", where:"Core",     url:"https://www.fci.ca/technology/",
+    desc:"Get passengers to their floors faster with the dispatch technology that has transformed elevator systems." },
+  { id:"turnstiles",   title:"Security Turnstiles",          cat:"Security",   where:"Lobby",          url:"https://www.fci.ca/commercial-security-ottawa/",
+    desc:"Simplify entry for employees — and keep the wrong people out — with the latest access control technology." },
+  { id:"doors",        title:"Touchless Door Operators",     cat:"Building Systems", where:"Entrance", url:"https://www.fci.ca/commercial-security-ottawa/",
+    desc:"Upgrade every type of entry door to open without contact." },
+  { id:"parking",      title:"Parking Management Systems",   cat:"Security",   where:"P1",             url:"https://www.fci.ca/commercial-security-ottawa/",
+    desc:"Intelligent systems that manage every entry and exit of your garage or parking lot." }
+];
+(function(){
+  document.body.classList.remove('no-js');
+  var list=document.querySelector('.ibs-list'), rail=document.querySelector('.ibs-rail'), h='', r='';
+  FCI_SERVICES.forEach(function(s,i){
+    var n=String(i+1).padStart(2,'0');
+    h+='<li class="ibs-item" id="svc-'+s.id+'"><article>'+
+       '<div class="meta mono reveal"><span>'+n+'</span><span>'+s.where+'</span><span>'+s.cat+'</span></div>'+
+       '<span class="num" aria-hidden="true">'+n+'</span>'+
+       '<figure class="svc-img"><img src="img/services/'+s.id+'.webp" alt="'+s.title+' — FCi '+s.cat.toLowerCase()+' service" width="560" height="560" loading="lazy" decoding="async"></figure>'+
+       '<h3 class="reveal">'+s.title+'</h3><p class="reveal">'+s.desc+'</p>'+
+       '<a class="go reveal" href="'+s.url+'">Explore '+s.cat+' <span aria-hidden="true">→</span></a></article></li>';
+    r+='<li><button type="button" data-i="'+i+'"><span>'+s.title+'</span><i></i></button></li>';
+  });
+  list.innerHTML=h; rail.innerHTML=r;
+})();
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+<script type="importmap">
+{ "imports": {
+  "three": "https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js",
+  "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.170.0/examples/jsm/"
+} }
+</script>
+
+<!-- ======================= Page chrome (header, hero, reveals) ======================= -->
+<script>
+(function(){
+  var reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (reduced) document.documentElement.classList.add('reduced');
+  var header=document.querySelector('.site-header');
+  var toTop=document.querySelector('.to-top');
+  addEventListener('scroll',function(){toTop.classList.toggle('show',scrollY>innerHeight*.8)},{passive:true});
+  toTop.addEventListener('click',function(e){e.preventDefault();
+    var done=function(){var l=document.querySelector('.logo');l.focus({preventScroll:true});l.blur();};
+    if(reduced||!window.gsap){window.scrollTo(0,0);done();return;}
+    var o={y:scrollY};gsap.to(o,{y:0,duration:Math.min(2.2,.6+scrollY/6000),ease:'power3.inOut',overwrite:true,onUpdate:function(){window.scrollTo(0,o.y)},onComplete:done});
+  });
+  addEventListener('scroll',function(){header.classList.toggle('is-scrolled',scrollY>40)},{passive:true});
+
+  var burger=document.querySelector('.burger');
+  burger.addEventListener('click',function(){
+    var open=document.body.classList.toggle('nav-open');
+    burger.setAttribute('aria-expanded',open); burger.setAttribute('aria-label',open?'Close menu':'Open menu');
+    document.body.style.overflow=open?'hidden':'';
+  });
+  document.querySelectorAll('.drawer a').forEach(function(a){a.addEventListener('click',function(){document.body.classList.remove('nav-open');document.body.style.overflow='';})});
+
+  if (!window.gsap) { document.querySelectorAll('.rv').forEach(function(e){e.style.opacity=1;e.style.transform='none'}); return; }
+  gsap.registerPlugin(ScrollTrigger);
+  if (reduced) { gsap.set('.rv',{opacity:1,y:0}); }
+  else {
+    gsap.from('.hero h1 .w>span',{yPercent:110,duration:1.1,ease:'power4.out',stagger:.07,delay:.15});
+    gsap.to('.hero .rv',{opacity:1,y:0,duration:1,ease:'power3.out',stagger:.12,delay:.6});
+    gsap.utils.toArray('.rv').filter(function(e){return !e.closest('.hero')}).forEach(function(el){
+      gsap.to(el,{opacity:1,y:0,duration:1,ease:'power3.out',scrollTrigger:{trigger:el,start:'top 88%'}});
+    });
+    gsap.to('.hero video',{scale:1.15,yPercent:8,ease:'none',scrollTrigger:{trigger:'.hero',start:'top top',end:'bottom top',scrub:true}});
+    var v=document.querySelector('.hero video');
+    ScrollTrigger.create({trigger:'.hero',start:'top top',end:'bottom top',onLeave:function(){v.pause()},onEnterBack:function(){v.play()}});
+  }
+})();
+</script>
+
+<!-- ======================= 3D building ======================= -->
+<!-- Building geometry exported from Blender (build_tower.py): levels, radii, core, entrance -->
+<script>window.FCI_BUILDING = {"units":"m","frontAxis":"+z","draco":true,"tower":{"rx":17.0,"ry":12.5},"podium":{"rx":20.5,"ry":15.5},"roof":{"y":72.9,"penthouse":{"x":0.5,"z":0.5,"w":21,"d":15,"y0":73.5,"y1":78.7}},"entrance":{"x":0,"z":17.4,"y":4.75,"w":13,"d":4.2},"core":{"x":0,"z":-1.0,"w":5,"d":5,"y0":-4.2,"y1":72.9},"levels":[{"name":"P1","label":"P1","rect":[60.0,46.0],"y0":-4.2,"y1":-0.4},{"name":"L01","label":"Lobby","rx":21.3,"ry":16.3,"y0":0.0,"y1":8.0},{"name":"L02","label":"Level 2","rx":19.0,"ry":14.5,"y0":8.9,"y1":12.100000000000001},{"name":"L03","label":"Level 3","rx":19.0,"ry":14.5,"y0":12.100000000000001,"y1":15.3},{"name":"L04","label":"Level 4","rx":19.0,"ry":14.5,"y0":15.3,"y1":18.5},{"name":"L05","label":"Level 5","rx":19.0,"ry":14.5,"y0":18.5,"y1":21.7},{"name":"L06","label":"Level 6","rx":19.0,"ry":14.5,"y0":21.700000000000003,"y1":24.900000000000002},{"name":"L07","label":"Level 7","rx":19.0,"ry":14.5,"y0":24.9,"y1":28.099999999999998},{"name":"L08","label":"Level 8","rx":19.0,"ry":14.5,"y0":28.1,"y1":31.3},{"name":"L09","label":"Level 9","rx":19.0,"ry":14.5,"y0":31.300000000000004,"y1":34.50000000000001},{"name":"L10","label":"Level 10","rx":19.0,"ry":14.5,"y0":34.5,"y1":37.7},{"name":"L11","label":"Level 11","rx":19.0,"ry":14.5,"y0":37.7,"y1":40.900000000000006},{"name":"L12","label":"Level 12","rx":19.0,"ry":14.5,"y0":40.9,"y1":44.1},{"name":"L13","label":"Level 13","rx":19.0,"ry":14.5,"y0":44.1,"y1":47.300000000000004},{"name":"L14","label":"Level 14","rx":19.0,"ry":14.5,"y0":47.300000000000004,"y1":50.50000000000001},{"name":"L15","label":"Level 15","rx":19.0,"ry":14.5,"y0":50.5,"y1":53.7},{"name":"L16","label":"Level 16","rx":19.0,"ry":14.5,"y0":53.7,"y1":56.900000000000006},{"name":"L17","label":"Level 17","rx":19.0,"ry":14.5,"y0":56.9,"y1":60.1},{"name":"L18","label":"Level 18","rx":19.0,"ry":14.5,"y0":60.1,"y1":63.300000000000004},{"name":"L19","label":"Level 19","rx":19.0,"ry":14.5,"y0":63.300000000000004,"y1":66.5},{"name":"L20","label":"Level 20","rx":19.4,"ry":14.9,"y0":66.5,"y1":69.7},{"name":"L21","label":"Level 21","rx":19.4,"ry":14.9,"y0":69.7,"y1":72.9}]};</script>
+<script type="module">
+import * as THREE from 'three';
+import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+import { DRACOLoader } from 'three/addons/loaders/DRACOLoader.js';
+import { RoomEnvironment } from 'three/addons/environments/RoomEnvironment.js';
+import { RGBELoader } from 'three/addons/loaders/RGBELoader.js';
+import { mergeGeometries } from 'three/addons/utils/BufferGeometryUtils.js';
+import { EffectComposer } from 'three/addons/postprocessing/EffectComposer.js';
+import { RenderPass } from 'three/addons/postprocessing/RenderPass.js';
+import { GTAOPass } from 'three/addons/postprocessing/GTAOPass.js';
+import { UnrealBloomPass } from 'three/addons/postprocessing/UnrealBloomPass.js';
+import { ShaderPass } from 'three/addons/postprocessing/ShaderPass.js';
+import { OutputPass } from 'three/addons/postprocessing/OutputPass.js';
+import { LineSegments2 } from 'three/addons/lines/LineSegments2.js';
+import { LineSegmentsGeometry } from 'three/addons/lines/LineSegmentsGeometry.js';
+import { LineMaterial } from 'three/addons/lines/LineMaterial.js';
+
+/* Optional scroll-scrubbed videos (see notes in README). Encode with: ffmpeg -i in.mp4 -an -c:v libx264 -g 4 -crf 22 out.mp4 */
+const INTRO_VIDEO   = '';
+const PARKING_VIDEO = '';
+
+/* Look tuning */
+const SKY_HDR = 'env/dusk.hdr';   // rendered in Blender (prep_assets.py)
+const SKY_ROT = 0.0;              // radians: turns the sky so the sunset sits where we want it
+const SKY_INTENSITY = 1.0;
+const SKY_CAP = 4.0;               // max brightness kept from the HDR (clips the sun disk)
+const FOG_TINT = 0.42;             // fog = horizon colour x this
+const FOG = { base:0.0, falloff:0.035, haze:0.55, near:160.0, far:1100.0 };   // height fog: thick at street level, thin up high
+
+/* Height fog: patch three's fog so distant objects fade most near the ground (hides the bases of the background city). */
+THREE.ShaderChunk.fog_pars_vertex = '#ifdef USE_FOG\n varying float vFogDepth;\n varying vec3 vFogWorldPos;\n#endif';
+THREE.ShaderChunk.fog_vertex = '#ifdef USE_FOG\n vFogDepth = - mvPosition.z;\n vec4 fogWp = vec4( position, 1.0 );\n #ifdef USE_INSTANCING\n fogWp = instanceMatrix * fogWp;\n #endif\n vFogWorldPos = ( modelMatrix * fogWp ).xyz;\n#endif';
+THREE.ShaderChunk.fog_pars_fragment = '#ifdef USE_FOG\n uniform vec3 fogColor;\n varying float vFogDepth;\n varying vec3 vFogWorldPos;\n #ifdef FOG_EXP2\n uniform float fogDensity;\n #else\n uniform float fogNear;\n uniform float fogFar;\n #endif\n#endif';
+THREE.ShaderChunk.fog_fragment = '#ifdef USE_FOG\n #ifdef FOG_EXP2\n float fogFactor = 1.0 - exp( - fogDensity * fogDensity * vFogDepth * vFogDepth );\n #else\n float fogFactor = smoothstep( fogNear, fogFar, vFogDepth );\n #endif\n'
+  + ' float fogH = exp( - max( vFogWorldPos.y - ' + FOG.base.toFixed(2) + ', 0.0 ) * ' + FOG.falloff.toFixed(4) + ' );\n'
+  + ' fogFactor = clamp( fogFactor + fogH * ' + FOG.haze.toFixed(2) + ' * smoothstep( ' + FOG.near.toFixed(1) + ', ' + FOG.far.toFixed(1) + ', vFogDepth ), 0.0, 1.0 );\n'
+  + ' gl_FragColor.rgb = mix( gl_FragColor.rgb, fogColor, fogFactor );\n#endif';
+
+const section = document.querySelector('.ibs');
+const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
+const canWebGL = (() => { try { const c=document.createElement('canvas'); return !!(c.getContext('webgl2')||c.getContext('webgl')); } catch(e){ return false; } })();
+if (window.gsap && canWebGL && !reduced) init().catch(err => { console.error(err); section.classList.remove('ibs--3d'); });
+
+async function init(){
+section.classList.add('ibs--3d');
+const S = window.FCI_SERVICES, N = S.length, B = window.FCI_BUILDING;
+const stage  = section.querySelector('.ibs-stage');
+const canvas = section.querySelector('.ibs-canvas');
+const items  = [...section.querySelectorAll('.ibs-item')];
+const ticks  = [...section.querySelectorAll('.ibs-rail button')];
+const railEl = section.querySelector('.ibs-rail');
+const svg    = section.querySelector('.ibs-svg');
+const path   = svg.querySelector('path'), dot = svg.querySelector('.dot'), ring = svg.querySelector('.ring');
+const intro  = section.querySelector('.ibs-intro');
+const hudEl  = section.querySelector('.ibs-hud');
+const hudN   = section.querySelector('.ibs-hud .count b'), hudBar = section.querySelector('.ibs-hud .bar i'), hudL = section.querySelector('.ibs-hud .lvl');
+const video  = section.querySelector('.ibs-video');
+const isMobile = () => innerWidth < 760 || (innerWidth < 1100 && innerWidth/innerHeight < .85);   // phones + portrait tablets use the stacked layout
+const lerp=(a,b,t)=>a+(b-a)*t, clamp=(v,a=0,b=1)=>Math.min(b,Math.max(a,v)), sstep=(a,b,x)=>{const t=clamp((x-a)/(b-a));return t*t*(3-2*t)};
+const v3 = (x,y,z)=>new THREE.Vector3(x,y,z);
+
+/* ---------- renderer / scene ---------- */
+const YEL = new THREE.Color(0xF5A81C);
+const renderer = new THREE.WebGLRenderer({ canvas, antialias:true, alpha:true, powerPreference:'high-performance' });
+renderer.setPixelRatio(Math.min(devicePixelRatio, isMobile()?1.25:1.5));   // post-processing is per-pixel; cap for smooth scrolling
+renderer.outputColorSpace = THREE.SRGBColorSpace;
+renderer.toneMapping = THREE.AgXToneMapping;
+renderer.toneMappingExposure = 1.15;
+const scene = new THREE.Scene();
+scene.fog = new THREE.FogExp2(0x070b12, 0.0016);
+const pmrem = new THREE.PMREMGenerator(renderer);
+/* real sunset sky (HDR) as background + reflections; falls back to a studio environment */
+try {
+  const hdr = await new RGBELoader().loadAsync(SKY_HDR);
+  hdr.mapping = THREE.EquirectangularReflectionMapping;
+  { // tame the sun disk (thousands of times brighter than the sky) so reflections and fog stay balanced
+    const d = hdr.image.data, half = d instanceof Uint16Array, rd = v => half ? THREE.DataUtils.fromHalfFloat(v) : v, wr = v => half ? THREE.DataUtils.toHalfFloat(v) : v;
+    for (let i = 0; i < d.length; i += 4){ const r = rd(d[i]), g = rd(d[i+1]), b = rd(d[i+2]), mx = Math.max(r, g, b);
+      if (mx > SKY_CAP){ const k = SKY_CAP/mx; d[i] = wr(r*k); d[i+1] = wr(g*k); d[i+2] = wr(b*k); } }
+    hdr.needsUpdate = true;
+  }
+  scene.environment = pmrem.fromEquirectangular(hdr).texture; scene.environmentIntensity = 0.55;
+  scene.environmentRotation.y = SKY_ROT;
+  // fog colour = average sky colour just above the horizon, so the haze melts into the sky
+  const { data, width, height } = hdr.image, row0 = Math.floor(height*.43), row1 = Math.floor(height*.47);
+  const half = data instanceof Uint16Array, g = v => half ? THREE.DataUtils.fromHalfFloat(v) : v;
+  let r = 0, gg = 0, b = 0, n = 0;
+  for (const [y0, y1] of [[row0, row1], [Math.floor(height*.30), Math.floor(height*.34)], [Math.floor(height*.30), Math.floor(height*.34)]]) for (let y = y0; y < y1; y++) for (let x = 0; x < width; x += 4){ const i = (y*width + x)*4; r += g(data[i]); gg += g(data[i+1]); b += g(data[i+2]); n++; }
+  void FOG_TINT;   // horizon colour no longer used: fog now melts into the dark backdrop
+} catch (err) {
+  console.warn('Sky HDR not found, using studio lighting', err);
+  scene.environment = pmrem.fromScene(new RoomEnvironment(), 0.04).texture;
+}
+const camera = new THREE.PerspectiveCamera(35, 1, 0.5, 4000);
+scene.add(new THREE.HemisphereLight(0xb8c8e2, 0x2a2420, 0.7));
+const sun = new THREE.DirectionalLight(0xffe0c2, 1.1); sun.position.set(260, 70, 140); scene.add(sun);
+const rim = new THREE.DirectionalLight(0x6f9fe0, 0.9); rim.position.set(-200, 120, -160); scene.add(rim);
+const garage = new THREE.PointLight(0xfff0da, 0, 70, 1.6); garage.position.set(0, -1.2, 4); scene.add(garage);
+const garage2 = new THREE.PointLight(0xfff0da, 0, 60, 1.4); garage2.position.set(0, -1.0, -16); scene.add(garage2);
+
+/* ---------- ground ---------- */
+const radial = (() => { const c = document.createElement('canvas'); c.width = c.height = 256; const x = c.getContext('2d');
+  const g = x.createRadialGradient(128, 128, 0, 128, 128, 128); g.addColorStop(0, '#fff'); g.addColorStop(.45, '#fff'); g.addColorStop(1, '#000');
+  x.fillStyle = g; x.fillRect(0, 0, 256, 256); return new THREE.CanvasTexture(c); })();
+const groundMat = new THREE.MeshStandardMaterial({ color:0x111419, roughness:.95, transparent:true, opacity:.96, depthWrite:false, alphaMap:radial });
+const ground = new THREE.Mesh(new THREE.PlaneGeometry(560, 560), groundMat); ground.rotation.x = -Math.PI/2; ground.position.y = -0.02; scene.add(ground);
+const grid = new THREE.GridHelper(360, 36, 0x2a5a8c, 0x14273c); grid.position.y = 0.03; grid.material.transparent = true; grid.material.opacity = .45; grid.material.depthWrite = false; scene.add(grid);
+
+/* ---------- load the Blender model (embedded GLB, Draco-compressed) ---------- */
+const draco = new DRACOLoader().setDecoderPath('https://www.gstatic.com/draco/versioned/decoders/1.5.6/');
+const loader = new GLTFLoader().setDRACOLoader(draco);
+const gltf = await loader.loadAsync('fci_tower.glb');
+const model = gltf.scene; scene.add(model);
+
+/* dusk restyle: same model, darker glass + warm interiors so the yellow reads */
+const STYLE = {
+  Glass:      { color:0x1d2c3e, metalness:.85, roughness:.06, opacity:.92 },
+  LobbyGlass: { color:0x2d3a46, metalness:.4,  roughness:.05, opacity:.3 },
+  Rail:       { color:0x9fb6c6, opacity:.22 },
+  White:      { color:0xf1efeb, roughness:.55, clean:true }, Stone:{ color:0xe3dfd8, roughness:.6, clean:true },
+  Paving:     { color:0x24262b, roughness:.85, clean:true }, Concrete:{ color:0x8c8882, roughness:.85, clean:true },
+  ConcFloor:  { color:0x4a4846, roughness:.35, clean:true }, Steel:{ color:0xc9ccd0, roughness:.25, metalness:1, clean:true },
+  Room:       { color:0x23272e, emissive:0xffe2b8, emissiveIntensity:.04 },
+  RoomLit:    { color:0x23272e, emissive:0xffe2b8, emissiveIntensity:.04 }, LobbyWarm:{ emissiveIntensity:1.1 },
+  Tube:       { emissiveIntensity:1.4 }, Daylight:{ emissiveIntensity:1.2 }, ConcFloor2:{},
+};
+const NODES = {};
+model.traverse(o => {
+  if (!o.isMesh) return;
+  const mats = Array.isArray(o.material) ? o.material : [o.material];
+  const out = mats.map(m0 => {
+    const m = m0.clone(); const st = STYLE[m0.name] || {};
+    if (st.clean) for (const k of ['map', 'normalMap', 'roughnessMap', 'metalnessMap', 'aoMap']) m[k] = null;
+    if (st.color !== undefined) m.color.set(st.color);
+    if (st.metalness !== undefined) m.metalness = st.metalness;
+    if (st.roughness !== undefined) m.roughness = st.roughness;
+    if (st.opacity !== undefined) m.opacity = st.opacity;
+    if (st.emissive !== undefined) m.emissive.set(st.emissive);
+    if (st.emissiveIntensity !== undefined) m.emissiveIntensity = st.emissiveIntensity;
+    m.envMapIntensity = m0.name === 'Glass' ? 1.4 : .6;
+    m.userData.o = m.opacity; m.transparent = m.opacity < .99; m.depthWrite = m.opacity > .98; m.needsUpdate = true;
+    return m;
+  });
+  o.material = Array.isArray(o.material) ? out : out[0];
+  let n = o; while (n.parent && n.parent !== model) n = n.parent;
+  (NODES[n.name] ||= { node:n, mats:[] }).mats.push(...out);
+});
+const fadeNode = (name, f) => { const r = NODES[name]; if (!r) return; for (const m of r.mats) { const t = m.userData.o < .99 || f < .99; if (t !== m.transparent){ m.transparent = t; m.needsUpdate = true; } m.opacity = m.userData.o * f; m.depthWrite = m.userData.o > .98 && f > .98; } r.node.visible = f > .01; };
+
+/* antennas for the cellular stop */
+const PH = B.roof.penthouse;
+const mastMat = new THREE.MeshStandardMaterial({ color:0x9aa0a8, metalness:.8, roughness:.3 });
+const MASTS = [[-7, 3, 9], [5, -3, 7], [-1, 6, 6]];
+const masts = new THREE.Group(); scene.add(masts);
+MASTS.forEach(([x, z, h]) => { const m = new THREE.Mesh(new THREE.CylinderGeometry(.12, .2, h, 8), mastMat); m.position.set(x, PH.y1 + h/2, z); masts.add(m);
+  for (let i=0;i<3;i++){ const p = new THREE.Mesh(new THREE.BoxGeometry(.5, 1.6, .2), mastMat); p.position.set(x + .35*Math.cos(i*2.1), PH.y1 + h - 1.2, z + .35*Math.sin(i*2.1)); p.rotation.y = -i*2.1; masts.add(p); } });
+
+/* ---------- highlight builders (3D yellow outlines) ---------- */
+const lineMats = [];
+function fat(positions, width){
+  const g = new LineSegmentsGeometry().setPositions(positions);
+  const m = new LineMaterial({ color:YEL, linewidth:width, transparent:true, opacity:0, depthTest:false, depthWrite:false }); m.fog = false;
+  lineMats.push(m); const l = new LineSegments2(g, m); l.renderOrder = 10; return l;
+}
+function ellipseSegs(rx, ry, y, n, out){ for (let i=0;i<n;i++){ const a0=i/n*Math.PI*2, a1=(i+1)/n*Math.PI*2; out.push(rx*Math.sin(a0), y, ry*Math.cos(a0), rx*Math.sin(a1), y, ry*Math.cos(a1)); } }
+function levelOutline(rx, ry, y0, y1){
+  const p = []; ellipseSegs(rx, ry, y0, 96, p); ellipseSegs(rx, ry, y1, 96, p);
+  for (let i=0;i<16;i++){ const a=i/16*Math.PI*2; p.push(rx*Math.sin(a), y0, ry*Math.cos(a), rx*Math.sin(a), y1, ry*Math.cos(a)); }
+  return p;
+}
+function boxOutline(w, h, d){ return [...new THREE.EdgesGeometry(new THREE.BoxGeometry(w, h, d)).attributes.position.array]; }
+function makeHL(positions, fillGeo, pos = v3(0,0,0)){
+  const g = new THREE.Group(); g.position.copy(pos);
+  const fill = new THREE.Mesh(fillGeo, new THREE.MeshBasicMaterial({ color:YEL, transparent:true, opacity:0, depthWrite:false, side:THREE.DoubleSide, blending:THREE.AdditiveBlending }));
+  const glow = fat(positions, 10); glow.material.blending = THREE.AdditiveBlending;
+  const line = fat(positions, 2.4);
+  g.add(fill, glow, line); g.visible = false; scene.add(g);
+  return { g, set(v){ g.visible = v > .003; line.material.opacity = v; glow.material.opacity = v*.22; fill.material.opacity = v*.06; } };
+}
+const LV = Object.fromEntries(B.levels.map(l => [l.name, l]));
+function levelHL(name){
+  const L = LV[name];
+  if (L.rect){ const [w, d] = L.rect, h = L.y1 - L.y0; return makeHL(boxOutline(w, h, d), new THREE.BoxGeometry(w, h, d), v3(0, (L.y0 + L.y1)/2, 0)); }
+  const rx = L.rx + .4, ry = L.ry + .4, cyl = new THREE.CylinderGeometry(1, 1, L.y1 - L.y0, 96, 1, true);
+  cyl.scale(rx, 1, ry); cyl.translate(0, (L.y0 + L.y1)/2, 0);
+  return makeHL(levelOutline(rx, ry, L.y0, L.y1), cyl);
+}
+const C = B.core, E = B.entrance;
+const coreHL = makeHL(boxOutline(C.w + .6, C.y1 - C.y0, C.d + .6), new THREE.BoxGeometry(C.w + .6, C.y1 - C.y0, C.d + .6), v3(C.x, (C.y0 + C.y1)/2, C.z));
+const roofHL = makeHL(boxOutline(PH.w + 4, PH.y1 - PH.y0 + 10, PH.d + 4), new THREE.BoxGeometry(PH.w + 4, PH.y1 - PH.y0 + 10, PH.d + 4), v3(PH.x, (PH.y0 + PH.y1 + 10)/2, PH.z));
+const doorHL = makeHL(boxOutline(E.w + 2, 5.6, E.d + 2.5), new THREE.BoxGeometry(E.w + 2, 5.6, E.d + 2.5), v3(E.x, 2.8, E.z));
+const cab = new THREE.Mesh(new THREE.BoxGeometry(2.4, 2.8, 2.4), new THREE.MeshBasicMaterial({ color:YEL, transparent:true, opacity:0 })); cab.position.set(C.x, 10, C.z); scene.add(cab);
+const rings = []; for (let i=0;i<3;i++){ const r = new THREE.Mesh(new THREE.RingGeometry(.96, 1, 64), new THREE.MeshBasicMaterial({ color:YEL, transparent:true, opacity:0, side:THREE.DoubleSide, blending:THREE.AdditiveBlending, depthWrite:false })); r.rotation.x = -Math.PI/2; r.position.set(-7, PH.y1 + 9, 3); scene.add(r); rings.push(r); }
+const scanPos = []; ellipseSegs(1, 1, 0, 96, scanPos); const scan = fat(scanPos, 2); scene.add(scan);
+
+/* ---------- surroundings: a varied dusk city + organic street trees ---------- */
+const rnd = (a, b) => a + Math.random()*(b - a), pick = arr => arr[Math.floor(Math.random()*arr.length)];
+const FACADES = {
+  glass:{ wall:'#1d3042', win:'#2c4e6c', frame:'#0e1824', kind:'curtain', lit:.20 },
+  teal: { wall:'#1d3436', win:'#2f5a5c', frame:'#0d1a1b', kind:'curtain', lit:.16 },
+  dark: { wall:'#14171c', win:'#222a35', frame:'#0a0c0f', kind:'curtain', lit:.24 },
+  stone:{ wall:'#8a8174', win:'#1c222a', frame:'#6c6458', kind:'punched', lit:.34 },
+  band: { wall:'#b3ac9f', win:'#1a2029', frame:'#968f84', kind:'ribbon',  lit:.30 },
+  brick:{ wall:'#6a4636', win:'#1b1f25', frame:'#57392c', kind:'punched', lit:.34 },
+};
+function facadeMaps(F){
+  const mk = () => { const c = document.createElement('canvas'); c.width = c.height = 256; return [c, c.getContext('2d')]; };
+  const [cc, x] = mk(), [ce, xe] = mk();
+  x.fillStyle = F.wall; x.fillRect(0, 0, 256, 256); xe.fillStyle = '#000'; xe.fillRect(0, 0, 256, 256);
+  const fl = 12, bays = 12, fh = 256/12, bw = 256/12;
+  for (let f = 0; f < fl; f++) for (let b = 0; b < bays; b++){
+    let wx = b*bw, wy = f*fh, ww = bw, wh = fh;
+    if (F.kind === 'curtain'){ wx += 1; wy += 2; ww -= 2; wh -= 3; }
+    else if (F.kind === 'punched'){ wx += 6; wy += 5; ww -= 12; wh -= 9; }
+    else { wy += 7; wh = 9; }
+    const on = Math.random() < F.lit;
+    x.fillStyle = on ? '#e9c58e' : F.win; x.fillRect(wx, wy, ww, wh);
+    if (F.kind === 'curtain'){ x.fillStyle = 'rgba(255,255,255,.05)'; x.fillRect(wx, wy, ww, wh*.4); }
+    if (on){ xe.fillStyle = 'rgb(255,' + (190 + Math.random()*50|0) + ',' + (110 + Math.random()*60|0) + ')'; xe.fillRect(wx, wy, ww, wh); }
+  }
+  if (F.kind === 'curtain'){ x.fillStyle = F.frame; for (let f = 0; f < fl; f++) x.fillRect(0, f*fh, 256, 2); }
+  x.fillStyle = '#0d0f12'; x.fillRect(0, 240, 16, 16);                 // roof swatch (UV 0..0.06)
+  return [cc, ce].map(c => { const t = new THREE.CanvasTexture(c); t.colorSpace = THREE.SRGBColorSpace; t.wrapS = t.wrapT = THREE.RepeatWrapping; t.anisotropy = 4; return t; });
+}
+function boxUV(w, h, d, x, y, z, rot){
+  const g = new THREE.BoxGeometry(w, h, d), uv = g.attributes.uv, TW = 48, TH = 42, ou = Math.random(), ov = Math.random();
+  const faceW = [d, d, w, w, w, w];                    // px nx py ny pz nz
+  for (let f = 0; f < 6; f++) for (let k = 0; k < 4; k++){
+    const i = f*4 + k;
+    if (f === 2 || f === 3) uv.setXY(i, .03, .03);
+    else uv.setXY(i, ou + uv.getX(i)*faceW[f]/TW, ov + uv.getY(i)*h/TH);
+  }
+  g.rotateY(rot); g.translate(x, y + h/2, z); return g;
+}
+const cityGeos = Object.fromEntries(Object.keys(FACADES).map(k => [k, []]));
+const MASS = ['tower', 'setback', 'podium', 'midrise', 'midrise', 'slab'];
+let placed = 0;
+for (let k = 0; k < 4000 && placed < 130; k++){
+  const a = Math.random()*Math.PI*2; if (a > -0.2 && a < 1.8) continue;           // keep the camera's side of the street open
+  const r = rnd(300, 1000), cx = Math.sin(a)*r, cz = Math.cos(a)*r, rot = Math.round(Math.random()*4)*Math.PI/2 + rnd(-.15, .15);
+  const kind = pick(Object.keys(FACADES)), type = pick(MASS), G = cityGeos[kind];
+  const w = rnd(18, 40), d = rnd(18, 40), h = type === 'midrise' ? rnd(18, 40) : rnd(40, 120) * (r > 600 ? 1.25 : 1);
+  if (type === 'podium' || type === 'slab'){ G.push(boxUV(w*1.5, 12, d*1.4, cx, 0, cz, rot)); }
+  G.push(boxUV(type === 'slab' ? w*1.6 : w, h, type === 'slab' ? d*.55 : d, cx, 0, cz, rot));
+  if (type === 'setback'){ G.push(boxUV(w*.7, h*.28, d*.7, cx, h, cz, rot)); G.push(boxUV(w*.4, h*.12, d*.4, cx, h*1.28, cz, rot)); }
+  if (type === 'tower' && Math.random() < .6){ cityGeos.dark.push(boxUV(w*.55, 6, d*.5, cx, h, cz, rot)); }
+  placed++;
+}
+const city = new THREE.Group(); scene.add(city);
+const cityMats = [], edgePos = [], beacons = [];
+const ACCENT = new THREE.Color(0x3E8EDE);
+for (const [kind, geos] of Object.entries(cityGeos)){
+  if (!geos.length) continue;
+  const [, emi] = facadeMaps(FACADES[kind]);
+  const mat = new THREE.MeshStandardMaterial({ color:0x05080d, roughness:.6, metalness:.3, emissiveMap:emi, emissive:0x9cc4ff, emissiveIntensity:.22, fog:false });
+  cityMats.push(mat); city.add(new THREE.Mesh(mergeGeometries(geos), mat));
+  for (const g of geos){
+    edgePos.push(...new THREE.EdgesGeometry(g).attributes.position.array);
+    g.computeBoundingBox(); const bb = g.boundingBox; if (bb.max.y > 70 && Math.random() < .5) beacons.push((bb.min.x + bb.max.x)/2, bb.max.y + 1.5, (bb.min.z + bb.max.z)/2);
+  }
+}
+const edgeGeo = new THREE.BufferGeometry(); edgeGeo.setAttribute('position', new THREE.Float32BufferAttribute(edgePos, 3));
+const edgeMat = new THREE.LineBasicMaterial({ color:ACCENT, transparent:true, opacity:.55, blending:THREE.AdditiveBlending, depthWrite:false, fog:false });
+city.add(new THREE.LineSegments(edgeGeo, edgeMat)); cityMats.push(edgeMat);
+const beaconGeo = new THREE.BufferGeometry(); beaconGeo.setAttribute('position', new THREE.Float32BufferAttribute(beacons, 3));
+const beaconMat = new THREE.PointsMaterial({ color:0xff3b30, size:3.2, transparent:true, depthWrite:false, blending:THREE.AdditiveBlending });
+city.add(new THREE.Points(beaconGeo, beaconMat));
+scene.remove(city);   // background city replaced by the abstract colour backdrop
+
+/* trees: bent trunk + branches (bark texture) + clusters of textured leaf cards, 4 variants, instanced */
+const texL = new THREE.TextureLoader();
+const loadTex = (u, srgb) => { const t = texL.load(u); if (srgb) t.colorSpace = THREE.SRGBColorSpace; t.wrapS = t.wrapT = THREE.RepeatWrapping; t.anisotropy = 4; return t; };
+function treeVariant(){
+  const wood = [], leaves = [], col = new THREE.Color();
+  const H = rnd(5, 7), trunk = new THREE.CylinderGeometry(.22, .45, H, 8, 4); trunk.translate(0, H/2, 0);
+  const tp = trunk.attributes.position; for (let i = 0; i < tp.count; i++){ const y = tp.getY(i); tp.setX(i, tp.getX(i) + Math.sin(y*.9)*.12); }
+  wood.push(trunk);
+  const tips = [v3(0, H + 1.4, 0)];
+  const nb = 4 + Math.floor(Math.random()*3);
+  for (let b = 0; b < nb; b++){
+    const L = rnd(2.5, 4.2), yaw = b/nb*Math.PI*2 + rnd(-.3, .3), pitch = rnd(.55, .95), y0 = H*rnd(.55, .85);
+    const br = new THREE.CylinderGeometry(.07, .17, L, 6, 2); br.translate(0, L/2, 0);
+    br.rotateZ(-pitch); br.rotateY(yaw); br.translate(0, y0, 0); wood.push(br);
+    tips.push(v3(Math.cos(yaw)*Math.sin(pitch)*L, y0 + Math.cos(pitch)*L, -Math.sin(yaw)*Math.sin(pitch)*L));
+  }
+  const e3 = new THREE.Euler();
+  for (const t of tips){
+    const cards = 70, R = rnd(1.8, 2.6);
+    for (let c = 0; c < cards; c++){
+      const q = new THREE.PlaneGeometry(.95, .95);
+      q.rotateX(rnd(0, 6.28)); q.rotateY(rnd(0, 6.28)); q.rotateZ(rnd(0, 6.28));
+      const u = Math.random(), th = rnd(0, 6.28), ph = Math.acos(rnd(-1, 1)), rr = R*Math.cbrt(u);
+      const px = t.x + rr*Math.sin(ph)*Math.cos(th)*1.15, py = t.y + rr*Math.cos(ph)*.8, pz = t.z + rr*Math.sin(ph)*Math.sin(th)*1.15;
+      q.translate(px, py, pz);
+      const up = clamp((py - t.y + R)/(2*R)), cols = new Float32Array(12);
+      col.setHSL(rnd(.17, .26), rnd(.35, .6), .32 + up*.25 + rnd(-.05, .05));
+      for (let k = 0; k < 4; k++) cols.set([col.r, col.g, col.b], k*3);
+      q.setAttribute('color', new THREE.BufferAttribute(cols, 3)); leaves.push(q);
+    }
+  }
+  return [mergeGeometries(wood), mergeGeometries(leaves)];
+}
+const barkTex = loadTex('tex/bark2/color.jpg', true); barkTex.repeat.set(1, 3);
+const barkMat = new THREE.MeshStandardMaterial({ map:barkTex, color:0xb8a898, roughness:.95 });
+const leafMat = new THREE.MeshStandardMaterial({ map:loadTex('tex/leaf/color.jpg', true), alphaMap:loadTex('tex/leaf/alpha.jpg', false), alphaTest:.45,
+  side:THREE.DoubleSide, vertexColors:true, roughness:.8 });
+const treeSpots = [];
+for (const z of [36, 44]) for (let x = -95; x <= 95; x += rnd(9, 13)) if (Math.abs(x) > 26) treeSpots.push([x + rnd(-1.5, 1.5), z + rnd(-1.5, 1.5)]);   // street rows in front, like the reference
+for (let n = 0; n < 34; n++){ const a = Math.PI*.55 + n/34*Math.PI*.9 + rnd(-.04, .04), r = rnd(52, 68); treeSpots.push([Math.sin(a)*r*1.2, Math.cos(a)*r]); }
+for (let n = 0; n < 18; n++){ const a = -Math.PI*.55 - n/18*Math.PI*.4, r = rnd(52, 64); treeSpots.push([Math.sin(a)*r*1.2, Math.cos(a)*r]); }
+const VARIANTS = 4, trees = new THREE.Group(); scene.add(trees);
+const M4 = new THREE.Matrix4(), Q = new THREE.Quaternion(), SC = new THREE.Vector3(), PO = new THREE.Vector3();
+for (let vI = 0; vI < VARIANTS; vI++){
+  const [wg, lg] = treeVariant(), spots = treeSpots.filter((_, i) => i % VARIANTS === vI);
+  const wi = new THREE.InstancedMesh(wg, barkMat, spots.length), li = new THREE.InstancedMesh(lg, leafMat, spots.length);
+  spots.forEach(([x, z], i) => { const s = rnd(.85, 1.25); PO.set(x, 0, z); Q.setFromAxisAngle(v3(0, 1, 0), rnd(0, 6.28)); SC.set(s, s*rnd(.9, 1.15), s); M4.compose(PO, Q, SC); wi.setMatrixAt(i, M4); li.setMatrixAt(i, M4); });
+  trees.add(wi, li);
+}
+
+/* ---------- particles ---------- */
+const PN = isMobile() ? 220 : 420, pp = new Float32Array(PN*3);
+for (let i=0;i<PN;i++){ const a=Math.random()*6.28, r=30+Math.random()*110; pp[i*3]=Math.cos(a)*r; pp[i*3+1]=Math.random()*110-5; pp[i*3+2]=Math.sin(a)*r; }
+const pg = new THREE.BufferGeometry(); pg.setAttribute('position', new THREE.BufferAttribute(pp, 3));
+void (new THREE.Points(pg, new THREE.PointsMaterial({ color:0xffe1a6, size:.35, transparent:true, opacity:.5, depthWrite:false })));
+
+/* ---------- services → building targets ---------- */
+const mid = n => (LV[n].y0 + LV[n].y1)/2;
+const front = (n, a = -26) => { const L = LV[n], r = a*Math.PI/180; return v3((L.rx - 1.2)*Math.sin(r), mid(n), (L.ry - 1.2)*Math.cos(r)); };
+const T = {
+  cellular:     { hl:roofHL, anchor:v3(-7, PH.y1 + 9, 3), t:v3(0, PH.y1 - 2, 0), el:.36, d:1.05 },
+  wifi:         { lvl:'L20' }, av:{ lvl:'L18' }, data:{ lvl:'L15' }, telecom:{ lvl:'L12' },
+  alarm:        { lvl:'L10' }, surveillance:{ lvl:'L07' }, access:{ lvl:'L04' },
+  elevator:     { hl:coreHL, anchor:v3(C.x - C.w/2, 34, C.z + C.d/2), t:v3(0, 36, 0), el:.08, d:1.65, xray:true },
+  turnstiles:   { lvl:'L01', anchor:v3(-5, 1.6, 9), t:v3(0, 5, 4), el:.12, d:.8 },
+  doors:        { hl:doorHL, anchor:v3(-4.5, 4.8, E.z + 1.5), t:v3(0, 4.5, 12), el:.12, d:.6 },
+  parking:      { lvl:'P1', anchor:v3(-4.5, -3.2, 5), t:v3(0, -2.6, -12), el:.02, dAbs:30, az:0, garage:true }
+};
+const targets = S.map((s, i) => {
+  const c = T[s.id], lvl = c.lvl;
+  return { id:s.id, lvl, xray:!!c.xray, garage:!!c.garage,
+    hl: c.hl || levelHL(lvl), anchor: c.anchor || front(lvl),
+    t: c.t || v3(0, mid(lvl), 0), el: c.el ?? .17, d: c.d ?? 1, dAbs: c.dAbs,
+    az: c.az ?? (.9 - i*(.5/(N-1))) };
+});
+
+/* ---------- camera ---------- */
+const BASE_D = 84;
+function distScale(){ const a = innerWidth/innerHeight; return a < 1 ? 1.25/Math.max(a, .46) : 1; }
+const poseIntro = { t:v3(0, 40, 0), az:1.25, el:.55, d:3.2 };
+const dist = (p, ds) => p.dAbs ?? BASE_D*p.d*ds;
+function mix(A, Bp, t, ds){ return { t:A.t.clone().lerp(Bp.t, t), az:lerp(A.az, Bp.az, t), el:lerp(A.el, Bp.el, t), dist:lerp(dist(A, ds), dist(Bp, ds), t) }; }
+
+/* ---------- videos + blackout ---------- */
+let useVideo = false; if (INTRO_VIDEO){ video.src = INTRO_VIDEO; useVideo = true; video.load(); }
+let pVideo = null; if (PARKING_VIDEO){ pVideo = video.cloneNode(); pVideo.src = PARKING_VIDEO; video.after(pVideo); pVideo.load(); }
+const blackout = document.createElement('div');
+blackout.style.cssText = 'position:absolute;inset:0;background:#0A0B0D;opacity:0;pointer-events:none;z-index:4';
+canvas.after(blackout);
+const DOORS = S.findIndex(s => s.id === 'doors');
+
+/* ---------- scroll ---------- */
+const P_RING = .10, P_FLY = .045, P_B0 = .13, P_IN = .30, P_OUT = .93;   // ring spin → cards fly to the deck → tower builds → floors
+let target = 0, prog = 0;
+const st = ScrollTrigger.create({
+  trigger: section, start:'top top', end: () => '+=' + innerHeight * (isMobile() ? 14 : 16),
+  pin: stage, scrub: true, anticipatePin: 1, invalidateOnRefresh: true,
+  onUpdate: s => { target = s.progress; }
+});
+ticks.forEach(b => b.addEventListener('click', () => {
+  const i = +b.dataset.i, p = P_IN + (i + .3)/N * (P_OUT - P_IN);
+  window.scrollTo({ top: st.start + p*(st.end - st.start), behavior:'smooth' });
+}));
+
+let cur = -2;
+function setActive(i){
+  if (i === cur) return; cur = i;
+  items.forEach((el, k) => el.classList.toggle('is-active', k === i));
+  ticks.forEach((el, k) => el.classList.toggle('is-active', k === i));
+  railEl.classList.toggle('on', i >= 0);
+  if (i >= 0){
+    gsap.fromTo(items[i].querySelectorAll('.reveal'), { y:22, opacity:0 }, { y:0, opacity:1, duration:.6, stagger:.06, ease:'power3.out', overwrite:true });
+    gsap.fromTo(path, { strokeDasharray:1, strokeDashoffset:1 }, { strokeDashoffset:0, duration:.7, ease:'power2.out', overwrite:true });
+    hudN.textContent = String(i + 1).padStart(2, '0'); hudL.textContent = S[i].where;
+    const im = items[i].querySelector('.svc-img img');
+    if (im) gsap.fromTo(im, { opacity:0, x:-40, y:-20, rotateY:-50, rotateZ:-6, scale:.6 }, { opacity:1, x:0, y:0, rotateY:0, rotateZ:0, scale:1, duration:.9, ease:'expo.out', overwrite:true });
+  }
+}
+
+/* ---------- service ring gallery: 12 cards on a tilted ring → one full turn → single-file flight into the card deck ---------- */
+const ringScene = new THREE.Scene(), ringCam = new THREE.PerspectiveCamera(32, 1, .1, 100); ringCam.position.set(0, 1.3, 11); ringCam.lookAt(0, 0, 0);
+const CARD_W = 1.2, CARD_H = 1.5, cardGeo = new THREE.PlaneGeometry(CARD_W, CARD_H);
+function roundRect(x, X, Y, W, H, r){ x.beginPath(); x.moveTo(X + r, Y); x.arcTo(X + W, Y, X + W, Y + H, r); x.arcTo(X + W, Y + H, X, Y + H, r); x.arcTo(X, Y + H, X, Y, r); x.arcTo(X, Y, X + W, Y, r); x.closePath(); }
+function cardCanvas(s, i, img){
+  const c = document.createElement('canvas'); c.width = 512; c.height = 640; const x = c.getContext('2d');
+  roundRect(x, 4, 4, 504, 632, 30);
+  const g = x.createLinearGradient(0, 0, 0, 640); g.addColorStop(0, 'rgba(30,38,52,.96)'); g.addColorStop(1, 'rgba(10,13,19,.97)'); x.fillStyle = g; x.fill();
+  x.lineWidth = 3; x.strokeStyle = 'rgba(245,168,28,.85)'; x.stroke();
+  const rg = x.createRadialGradient(256, 250, 10, 256, 250, 260); rg.addColorStop(0, 'rgba(62,142,222,.35)'); rg.addColorStop(1, 'rgba(62,142,222,0)'); x.fillStyle = rg; x.fillRect(0, 0, 512, 640);
+  if (img){ const k = Math.min(420/img.width, 420/img.height); x.drawImage(img, 256 - img.width*k/2, 250 - img.height*k/2, img.width*k, img.height*k); }
+  x.fillStyle = '#F5A81C'; x.font = '500 22px "JetBrains Mono", monospace'; x.fillText(String(i + 1).padStart(2, '0'), 36, 52);
+  x.fillStyle = '#E9E7E2'; x.font = '700 38px "Titillium Web", sans-serif';
+  const words = s.title.toUpperCase().split(' '), lines = ['']; for (const w of words){ const t = (lines.at(-1) + ' ' + w).trim(); if (x.measureText(t).width > 440) lines.push(w); else lines[lines.length - 1] = t; }
+  lines.slice(-2).forEach((l, k, a) => x.fillText(l, 36, 600 - (a.length - 1 - k)*40));
+  const t = new THREE.CanvasTexture(c); t.colorSpace = THREE.SRGBColorSpace; t.anisotropy = 4; return t;
+}
+const backTex = (() => { const c = document.createElement('canvas'); c.width = 256; c.height = 320; const x = c.getContext('2d'); roundRect(x, 2, 2, 252, 316, 16);
+  x.fillStyle = '#0d121a'; x.fill(); x.lineWidth = 2; x.strokeStyle = 'rgba(245,168,28,.6)'; x.stroke(); const t = new THREE.CanvasTexture(c); t.colorSpace = THREE.SRGBColorSpace; return t; })();
+const cards = S.map((s, i) => {
+  const front = new THREE.Mesh(cardGeo, new THREE.MeshBasicMaterial({ map:cardCanvas(s, i), transparent:true, depthWrite:false, side:THREE.FrontSide }));
+  const back = new THREE.Mesh(cardGeo, new THREE.MeshBasicMaterial({ map:front.material.map, transparent:true, depthWrite:false, side:THREE.FrontSide })); back.rotation.y = Math.PI; back.scale.x = -1; back.material.color.setScalar(.8);
+  const g = new THREE.Group(); g.add(front, back); ringScene.add(g);
+  const im = new Image(); im.decoding = 'async';
+  im.onload = () => document.fonts.ready.then(() => { front.material.map.dispose(); front.material.map = back.material.map = cardCanvas(s, i, im); front.material.needsUpdate = back.material.needsUpdate = true; });
+  im.src = 'img/services/' + s.id + '.webp';
+  return { g, mats:[front.material, back.material] };
+});
+const ringGlow = new THREE.Mesh(new THREE.RingGeometry(1, 1.012, 128), new THREE.MeshBasicMaterial({ color:0xF5A81C, transparent:true, opacity:.5, side:THREE.DoubleSide, depthWrite:false }));
+ringGlow.rotation.x = -Math.PI/2; ringScene.add(ringGlow);
+const tilt = new THREE.Quaternion(), tmpQ = new THREE.Quaternion(), tmpP = new THREE.Vector3(), deckP = new THREE.Vector3(), camQ = new THREE.Quaternion(), ray = new THREE.Vector3();
+function screenToPlane(sx, sy, W, H, z, out){   // stage pixels → world point on the plane z, as seen by the ring camera
+  ray.set(sx/W*2 - 1, -(sy/H)*2 + 1, .5).unproject(ringCam).sub(ringCam.position).normalize();
+  return out.copy(ringCam.position).addScaledVector(ray, (z - ringCam.position.z)/ray.z);
+}
+function updateRing(p, time){
+  const on = p < P_RING + P_FLY + .05; ringScene.visible = on; if (!on) return;
+  const W = stage.clientWidth, H = stage.clientHeight, mob = isMobile(), K = mob ? (innerWidth < 760 ? .5 : .62) : clamp((W/H)/1.75, .72, 1), R = 2.55*K;   // smaller ring on narrower landscape screens
+  ringCam.aspect = W/H; ringCam.setViewOffset(W, H, mob ? 0 : -W*.22, mob ? H*.02 : -H*.02, W, H); ringCam.updateProjectionMatrix();
+  const centre = v3(0, mob ? -1.55 : .35, 0);
+  tilt.setFromEuler(new THREE.Euler(.34, 0, -.07));
+  const spin = sstep(0, P_RING, p)*Math.PI*2 + time*.06;          // one full turn with the scroll, plus a slow idle drift
+  // the deck = where the service card sits (left panel on desktop, bottom card on mobile)
+  const lr = section.querySelector('.ibs-list').getBoundingClientRect(), sr = stage.getBoundingClientRect();
+  const dx = (mob ? lr.left + 70 : lr.left + lr.width*.5) - sr.left, dy = (mob ? lr.bottom - 160 : lr.top) - sr.top;
+  const ZD = 4; screenToPlane(dx, dy, W, H, ZD, deckP);
+  const deckScale = ((mob ? 110 : 190)/H) * 2*(ringCam.position.z - ZD)*Math.tan(THREE.MathUtils.degToRad(ringCam.fov/2)) / CARD_H;
+  camQ.copy(ringCam.quaternion);
+  const fade = 1 - sstep(P_RING + P_FLY - .005, P_RING + P_FLY + .04, p);
+  ringGlow.position.copy(centre).add(v3(0, -CARD_H*.62*K, 0)); ringGlow.scale.setScalar(R + .1); ringGlow.quaternion.copy(tilt).multiply(tmpQ.setFromEuler(new THREE.Euler(-Math.PI/2, 0, 0)));
+  ringGlow.material.opacity = .45*(1 - sstep(P_RING, P_RING + .02, p));
+  cards.forEach((c, i) => {
+    const a = i/N*Math.PI*2 + spin;
+    tmpP.set(Math.sin(a)*R, 0, Math.cos(a)*R).applyQuaternion(tilt).add(centre);
+    tmpQ.setFromAxisAngle(v3(0, 1, 0), a + .95); tmpQ.premultiply(tilt);   // angled like dominoes
+    // card i peels off in order: front of the queue first
+    const f = sstep(P_RING + i*.0028, P_RING + i*.0028 + .028, p), e = f*f*(3 - 2*f);
+    const target = deckP.clone().add(v3(-i*.004, i*.006, i*.002));
+    const pos = tmpP.clone().lerp(target, e); pos.y += Math.sin(e*Math.PI)*.9; pos.z += Math.sin(e*Math.PI)*1.2;
+    c.g.position.copy(pos); c.g.quaternion.copy(tmpQ).slerp(camQ, e);
+    c.g.scale.setScalar(lerp(K, deckScale, e));
+    const o = fade; c.mats.forEach(mt => mt.opacity = o);
+  });
+}
+
+/* ---------- post: soft shadows (GTAO), glow (bloom), filmic finish ---------- */
+const LITE = isMobile() || (navigator.hardwareConcurrency || 8) <= 4;
+/* abstract backdrop: deep gradient + slow floating colour blobs (cool tones to contrast the warm white tower) */
+const bgScene = new THREE.Scene(), bgCam = new THREE.OrthographicCamera(-1, 1, 1, -1, 0.1, 10); bgCam.position.z = 5;
+const bgGrad = (() => { const c = document.createElement('canvas'); c.width = 2; c.height = 256; const x = c.getContext('2d');
+  const g = x.createLinearGradient(0, 0, 0, 256); g.addColorStop(0, '#04060b'); g.addColorStop(.6, '#0a1020'); g.addColorStop(1, '#05070b');
+  x.fillStyle = g; x.fillRect(0, 0, 2, 256); const t = new THREE.CanvasTexture(c); t.colorSpace = THREE.SRGBColorSpace; return t; })();
+const bgPlane = new THREE.Mesh(new THREE.PlaneGeometry(2, 2), new THREE.MeshBasicMaterial({ map:bgGrad, depthTest:false })); bgScene.add(bgPlane);
+const blobTex = (() => { const c = document.createElement('canvas'); c.width = c.height = 256; const x = c.getContext('2d');
+  const g = x.createRadialGradient(128, 128, 0, 128, 128, 128); g.addColorStop(0, 'rgba(255,255,255,1)'); g.addColorStop(.35, 'rgba(255,255,255,.55)'); g.addColorStop(.7, 'rgba(255,255,255,.12)'); g.addColorStop(1, 'rgba(255,255,255,0)');
+  x.fillStyle = g; x.fillRect(0, 0, 256, 256); const t = new THREE.CanvasTexture(c); t.colorSpace = THREE.SRGBColorSpace; return t; })();
+const BLOBS = [ ['#3E8EDE', -.75,  .35, 1.9, .62], ['#5B3DF5',  .65,  .55, 2.2, .5 ], ['#16C0E0',  .95, -.35, 1.6, .42],
+                ['#2647B8', -.15, -.55, 2.4, .55], ['#8A5CFF', -1.1, -.2, 1.4, .38], ['#1E7BFF',  .25,  .05, 1.3, .3 ] ];
+const blobs = BLOBS.map(([col, x, y, s, o], i) => { const b = new THREE.Mesh(new THREE.PlaneGeometry(1, 1), new THREE.MeshBasicMaterial({ map:blobTex, color:col, transparent:true, opacity:o, depthTest:false, depthWrite:false }));
+  b.userData = { x, y, s, o, ph:i*1.7 }; bgScene.add(b); return b; });
+function updateBackdrop(t, w, h, look){
+  const a = w/h; bgCam.left = -a; bgCam.right = a; bgCam.updateProjectionMatrix(); bgPlane.scale.set(a, 1, 1);
+  blobs.forEach(b => { const u = b.userData;
+    b.position.set(u.x*a + Math.sin(t*.06 + u.ph)*.35 - look*.25, u.y + Math.cos(t*.05 + u.ph*1.3)*.22, 1);
+    const s = u.s*(1 + Math.sin(t*.08 + u.ph)*.12); b.scale.set(s, s, 1); });
+}
+scene.background = null;
+
+const composer = new EffectComposer(renderer);
+composer.addPass(new RenderPass(bgScene, bgCam));
+const mainPass = new RenderPass(scene, camera); mainPass.clear = false; mainPass.clearDepth = true; composer.addPass(mainPass);
+let gtao = null;
+if (!LITE){ gtao = new GTAOPass(scene, camera, 1, 1); gtao.updateGtaoMaterial({ radius:3.0, distanceExponent:1.0, thickness:2.0, scale:1.4, samples:12 }); gtao.blendIntensity = .9; composer.addPass(gtao);
+  // soft shadows only from solid surfaces: skip glows, highlight boxes, glass, lines and points (they caused dark blocks)
+  const gtaoRender = gtao.render.bind(gtao), hidden = [];
+  gtao.render = (...args) => {
+    scene.traverse(o => { if (!o.visible) return; const mt = Array.isArray(o.material) ? o.material[0] : o.material;
+      if (o.isPoints || o.isLine || o.isLineSegments2 || (mt && (mt.blending === THREE.AdditiveBlending || (mt.transparent && mt.opacity < .6)))){ o.visible = false; hidden.push(o); } });
+    gtaoRender(...args);
+    while (hidden.length) hidden.pop().visible = true;
+  };
+}
+const bloom = new UnrealBloomPass(new THREE.Vector2(1, 1), .55, .55, .82); composer.addPass(bloom);
+const ringPass = new RenderPass(ringScene, ringCam); ringPass.clear = false; ringPass.clearDepth = true; composer.addPass(ringPass);
+composer.addPass(new OutputPass());
+const finish = new ShaderPass({
+  uniforms:{ tDiffuse:{ value:null }, uTime:{ value:0 }, uGrain:{ value:.045 }, uVig:{ value:.32 } },
+  vertexShader:'varying vec2 vUv; void main(){ vUv = uv; gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0); }',
+  fragmentShader:`uniform sampler2D tDiffuse; uniform float uTime, uGrain, uVig; varying vec2 vUv;
+    float h(vec2 p){ return fract(sin(dot(p, vec2(12.9898, 78.233)) + uTime) * 43758.5453); }
+    void main(){ vec4 c = texture2D(tDiffuse, vUv);
+      vec2 d = vUv - .5; c.rgb *= 1.0 - uVig * dot(d, d) * 2.2;                 // vignette
+      c.rgb = mix(c.rgb, c.rgb * vec3(1.02, 1.0, 1.04), .5);                   // a touch of cool in the shadows
+      c.rgb += (h(vUv * 1024.0) - .5) * uGrain;                                // film grain
+      gl_FragColor = c; }`
+});
+composer.addPass(finish);
+
+function resize(){
+  const w = stage.clientWidth, h = stage.clientHeight;
+  renderer.setSize(w, h, false); camera.aspect = w/h;
+  if (isMobile()) camera.setViewOffset(w, h, 0, h*.17, w, h); else camera.setViewOffset(w, h, -w*.09, 0, w, h);
+  camera.updateProjectionMatrix(); lineMats.forEach(m => m.resolution.set(w, h));
+  if (typeof composer !== 'undefined'){ composer.setPixelRatio(renderer.getPixelRatio()); composer.setSize(w, h); bloom.setSize(w, h); gtao && gtao.setSize(w, h); }
+}
+addEventListener('resize', resize); resize();
+
+let visible = false;
+const checkVis = () => { const r = section.getBoundingClientRect(); visible = r.bottom > -200 && r.top < innerHeight + 200; };
+addEventListener('scroll', checkVis, { passive:true }); checkVis();
+const clock = new THREE.Clock(), tmp = new THREE.Vector3();
+const ORDER = ['P1', 'L01', ...Array.from({ length:20 }, (_, k) => 'L' + String(k + 2).padStart(2, '0'))];
+
+function frame(){
+  requestAnimationFrame(frame);
+  if (!visible) return;
+  const time = clock.getElapsedTime();
+  prog += (target - prog) * .09;
+  const p = prog;
+  const build = sstep(P_B0, P_IN, p), out = sstep(P_OUT, 1, p);
+  const s = clamp((p - P_IN)/(P_OUT - P_IN)) * N - .0001;
+  const i = clamp(Math.floor(s), 0, N - 1), f = s - i;
+  const e = i < N - 1 ? sstep(.62, 1, f) : 0;
+  const si = p < P_IN ? -1 : i + e;
+  const ds = distScale();
+  scene.fog.density = .0016/ds;
+
+  /* camera */
+  let pose;
+  if (p < P_IN) pose = mix({ ...poseIntro }, targets[0], sstep(0, 1, build), ds);
+  else pose = mix(targets[i], targets[Math.min(i + 1, N - 1)], e, ds);
+  const drift = Math.sin(time*.25)*.03;
+  camera.position.set(pose.t.x + Math.sin(pose.az + drift)*Math.cos(pose.el)*pose.dist,
+                      pose.t.y + Math.sin(pose.el)*pose.dist,
+                      pose.t.z + Math.cos(pose.az + drift)*Math.cos(pose.el)*pose.dist);
+  camera.lookAt(pose.t);
+
+  /* highlights */
+  let xray = 0, gar = 0, act = null, actLvl = 0;
+  targets.forEach((t, k) => {
+    const lvl = p < P_IN ? 0 : clamp(1 - Math.abs(si - k)*1.6) * (1 - out);
+    t.hl.set(lvl);
+    if (t.xray) xray = Math.max(xray, lvl);
+    if (t.garage) gar = Math.max(gar, lvl);
+    if (lvl > actLvl){ actLvl = lvl; act = t; }
+  });
+  const focus = clamp(actLvl*1.2);
+
+  /* intro: levels assemble bottom → top; focus dims the rest */
+  ORDER.forEach((name, k) => {
+    const a = sstep(0, 1, (build*1.35 - k/ORDER.length)*3.2);
+    const on = act && act.lvl === name;
+    NODES[name].node.position.y = (1 - a)*12;
+    fadeNode(name, a * (on ? 1 : (1 - .45*focus - .6*xray)));
+  });
+  const g1 = sstep(0, .8, build);
+  NODES.Fins && (NODES.Fins.node.scale.y = Math.max(.001, g1));
+  fadeNode('Core', sstep(.02, .3, xray));
+  fadeNode('Fins', g1*(1 - .6*xray)); fadeNode('Canopy', sstep(.1, .3, build)*(1 - .4*xray)); fadeNode('Plaza', sstep(0, .2, build));
+  const ra = sstep(.86, 1, build); fadeNode('Roof', ra*(1 - .6*xray)); NODES.Roof && (NODES.Roof.node.position.y = (1 - ra)*8); masts.visible = ra > .5;
+  groundMat.opacity = .96; grid.material.opacity = .3*(1 - gar);
+  const sa = sstep(0, .5, build); city.visible = sa > .01 && gar < .9; trees.visible = sa > .55 && gar < .9;
+  for (const cm of [cityMats[0], barkMat, leafMat]) if (cm){ cm.opacity = sa; }
+  edgeMat.opacity = .42*sa; beaconMat.opacity = sa*(.55 + .45*Math.sin(time*2.4));
+  garage.intensity = gar*90; garage2.intensity = gar*120;
+  bloom.strength = .55*(1 - .65*gar);
+  cab.material.opacity = xray; cab.visible = xray > .01; cab.position.y = 4 + (Math.sin(time*.9)*.5 + .5)*64;
+  rings.forEach((r, k) => { const ph = (time*.6 + k/3)%1; r.scale.setScalar(1 + ph*14); r.material.opacity = (1 - ph)*(S[cur]?.id === 'cellular' ? actLvl : 0)*.8; r.visible = r.material.opacity > .01; });
+
+  /* scan ring */
+  if (p < P_IN){
+    const y = build*80; scan.position.set(0, y, 0); scan.scale.set(24, 1, 19); scan.material.opacity = Math.sin(build*Math.PI)*.9;
+  } else if (act && act.lvl && !LV[act.lvl].rect){
+    const L = LV[act.lvl], ph = (time*.55)%1; scan.position.set(0, L.y0 + ph*(L.y1 - L.y0), 0); scan.scale.set(L.rx + .4, 1, L.ry + .4);
+    scan.material.opacity = actLvl*(1 - ph)*.9;
+  } else scan.material.opacity = 0;
+  scan.visible = scan.material.opacity > .01;
+
+  const pa = pg.attributes.position.array; for (let k=1;k<pa.length;k+=3){ pa[k] += .03; if (pa[k] > 105) pa[k] = -5; } pg.attributes.position.needsUpdate = true;
+
+  if (useVideo && video.duration){ const vt = clamp(p/P_IN); video.currentTime = vt*(video.duration - .05); video.style.opacity = 1 - sstep(.85, 1, vt); canvas.style.opacity = sstep(.8, 1, vt); }
+  const tp = (p >= P_IN && i === DOORS) ? e : (si > DOORS ? 1 : 0);
+  if (pVideo && pVideo.duration){ pVideo.currentTime = tp*(pVideo.duration - .05); pVideo.style.opacity = (tp > 0 && tp < 1) ? 1 : 0; blackout.style.opacity = 0; }
+  else blackout.style.opacity = Math.max(Math.sin(tp*Math.PI) ** .6, out);
+  if (pVideo) blackout.style.opacity = out;
+  hudEl.style.opacity = 1 - out;
+
+  intro.style.opacity = 1 - sstep(P_RING*.85, P_RING + .03, p);
+  intro.style.transform = 'translateY(' + (-sstep(0, P_RING + .03, p)*40) + 'px)';
+  updateRing(p, time);
+  const idx = (p < P_IN*.92 || out > .35) ? -1 : Math.round(si);
+  setActive(idx);
+  hudBar.style.transform = 'scaleX(' + clamp((p - P_IN)/(P_OUT - P_IN)) + ')';
+
+  if (idx >= 0 && actLvl > .25){
+    tmp.copy(targets[idx].anchor).project(camera);
+    const W = stage.clientWidth, H = stage.clientHeight;
+    const ax = (tmp.x*.5 + .5)*W, ay = (-tmp.y*.5 + .5)*H;
+    const r = items[idx].getBoundingClientRect(), sr = stage.getBoundingClientRect();
+    let d;
+    if (isMobile()){ const sx = r.left - sr.left + 28, sy = r.top - sr.top; d = 'M' + sx + ',' + sy + ' V' + Math.max(ay + 30, sy - 40) + ' L' + ax + ',' + ay; }
+    else { const sx = r.right - sr.left, sy = r.top - sr.top + 34, ex = sx + 46; d = 'M' + sx + ',' + sy + ' H' + ex + ' L' + ax + ',' + ay; }
+    path.setAttribute('d', d); dot.setAttribute('cx', ax); dot.setAttribute('cy', ay); ring.setAttribute('cx', ax); ring.setAttribute('cy', ay);
+    svg.style.opacity = sstep(.25, .7, actLvl);
+  } else svg.style.opacity = 0;
+
+  finish.uniforms.uTime.value = time % 10;
+  updateBackdrop(time, stage.clientWidth, stage.clientHeight, pose.az);
+  composer.render();
+}
+frame();
+window.__fci = { scene, camera, renderer, st, frame, NODES, composer, gtao, bloom, blobs, bgScene, mainPass };
+addEventListener('load', () => ScrollTrigger.refresh());
+}
+</script>
+</body>
+</html>
